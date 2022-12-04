@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <!--===== Trench Shotgun Bullet =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_TrenchShotgun</defName>
+    <label>M97 shotgun blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.14</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <!--===== Trench Gun ===== -->
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_TrenchShotgun</defName>
+    <label>M97 "Trench Gun"</label>
+    <description>The Winchester Model 1897, also known as the Model 97, M97, or Trench Gun, was a pump-action shotgun with an external hammer and tube magazine manufactured by the Winchester Repeating Arms Company. \n\nDue to its high rate of fire through the slamfire function, the weapon received the nickname "trench sweeper" in an ancient war and is still popular and appreciated by jump pack assault troops and veterans today.</description>
+    <graphicData>
+      <texPath>Things/Weapons/HRK_TrenchShotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
+      <drawOffsetEast>(0.10, 0.0, -0.05)</drawOffsetEast>
+      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
+      <drawOffsetWest>(-0.10, 0.0, -0.05)</drawOffsetWest>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>3.4</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <WoodLog>20</WoodLog>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_Bullet_TrenchShotgun</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>14</range>
+        <soundCast>HRK_Shot_TrenchShotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>M97 stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>M97 barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>SimpleGun</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!--===== Trench Gun (bayonet) ===== -->
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_TrenchShotgun_B</defName>
+    <label>M97 "Trench Gun" with bayonet</label>
+    <description>The Winchester Model 1897, also known as the Model 97, M97, or Trench Gun, was a pump-action shotgun with an external hammer and tube magazine manufactured by the Winchester Repeating Arms Company. \n\nDue to its high rate of fire through the slamfire function, the weapon received the nickname "trench sweeper" in an ancient war and is still popular and appreciated by jump pack assault troops and veterans today. \n\nThis M97 comes equipped with a sharp bayonet.</description>
+    <graphicData>
+      <texPath>Things/Weapons/HRK_TrenchShotgun_B</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
+      <drawOffsetEast>(0.10, 0.0, -0.05)</drawOffsetEast>
+      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
+      <drawOffsetWest>(-0.10, 0.0, -0.05)</drawOffsetWest>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>17000</WorkToMake>
+      <Mass>3.4</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.64</AccuracyLong>
+      <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>70</Steel>
+      <WoodLog>20</WoodLog>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_Bullet_TrenchShotgun</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>13</range>
+        <soundCast>HRK_Shot_TrenchShotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>M97 stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>bayonet blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>bayonet point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>19</power>
+        <armorPenetration>0.40</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>SimpleGun</li>
+    </weaponTags>
+  </ThingDef>
+
+</Defs>
