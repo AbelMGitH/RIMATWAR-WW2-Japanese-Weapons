@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <ThingCategoryDef>
+        <defName>HRK_Category_RimAtWar</defName>
+        <label>Rim At War</label>
+        <parent>WeaponsRanged</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>HRK_Category_RimAtWar_Japanese</defName>
+        <label>Japanese</label>
+        <parent>HRK_Category_RimAtWar</parent>
+    </ThingCategoryDef>
+
+</Defs>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <ThingDef Name="HRK_RimAtWar_Japanese_BaseHumanMakeableGun" ParentName="BaseHumanMakeableGun" Abstract="True">
+        <thingCategories Inherit="False">
+            <li>HRK_Category_RimAtWar_Japanese</li>
+        </thingCategories>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+    </ThingDef>
+
+</Defs>

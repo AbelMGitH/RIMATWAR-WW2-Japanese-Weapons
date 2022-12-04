@@ -2,7 +2,7 @@
 <ModMetaData>
 	<name>[HRK] RIM AT WAR - WW2 Japanese Weapons</name>
 	<author>Harkon</author>
-	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2412382876</url>
+	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2897518278</url>
 	<packageId>Harkon.RIMATWAR.WW2JapaneseWeapons</packageId>
 	<supportedVersions>
 		<li>1.4</li>
@@ -10,18 +10,19 @@
 	<description>
 	[HRK] RIM AT WAR - WW2 Japanese Weapons
 	</description>
-	<!--<modDependencies>
-		<li>
-			<packageId>Harkon.GunNut.CORE</packageId>
-			<displayName>[HRK] Gun Nut - CORE</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2614317714</steamWorkshopUrl>
-		</li>
-	</modDependencies>-->
+	<modDependencies>
+		<!--<li>
+			<packageId>Harkon.RIMATWAR.CORE</packageId>
+			<displayName>[HRK] RIM AT WAR - CORE</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2897518278</steamWorkshopUrl>
+		</li>-->
+	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Harkon.GunNut.CORE</li>
 		<li>CETeam.CombatExtended</li>
 		<li>VanillaExpanded.VWEQ</li>
 		<li>VanillaExpanded.VWEL</li>
