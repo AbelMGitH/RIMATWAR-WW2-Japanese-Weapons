@@ -6,9 +6,6 @@
         <thingCategories Inherit="False">
             <li>HRK_Category_RimAtWar_Japanese</li>
         </thingCategories>
-        <thingSetMakerTags>
-            <li>RewardStandardQualitySuper</li>
-        </thingSetMakerTags>
     </ThingDef>
 
 </Defs>
