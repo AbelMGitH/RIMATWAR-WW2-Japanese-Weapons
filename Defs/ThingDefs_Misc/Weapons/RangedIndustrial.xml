@@ -22,7 +22,7 @@
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type14Nambu</defName>
         <label>Type 14 Nambu</label>
-        <description>.</description>
+        <description>The Nambu pistols are a series of semi-automatic pistols produced by the Japanese company Koishikawa Arsenal. The Nambu pistols were designed to replace Japan's earlier service pistol, the Type 26 revolver.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type14Nambu</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -108,8 +108,7 @@
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type26Revolver</defName>
         <label>Type 26 revolver</label>
-        <description>.</description>
-        <possessionCount>1</possessionCount>
+        <description>The Type 26 revolver was the first modern revolver adopted by the Imperial Japanese Army. The Type 26 has a double-action only mechanism and is therefore difficult to aim accurately.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type26Revolver</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -194,7 +193,7 @@
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type2SMG</defName>
         <label>Type 2 SMG</label>
-        <description>.</description>
+        <description>The Type 2 SMG is a pre World War II experimental submachine gun of Japanese origin chambered in the 8mm Nambu round. The Type 2 is a blowback-operated submachine gun that fires from a closed bolt.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type2SMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -284,7 +283,7 @@
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type100SMG</defName>
         <label>Type 100 SMG</label>
-        <description>.</description>
+        <description>The Type 100 SMG is a Japanese submachine gun used during World War II and the only submachine gun produced by Japan in any quantity.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type100SMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -359,7 +358,7 @@
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type100SMGB</defName>
         <label>Type 100 SMG</label>
-        <description>.</description>
+        <description>The Type 100 SMG is a Japanese submachine gun used during World War II and the only submachine gun produced by Japan in any quantity. \n\nThis weapon comes with a bayonet attached, allowing for its use in melee combat.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type100SMGB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -458,7 +457,7 @@
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type99Arisaka</defName>
         <label>Type 99 Arisaka rifle</label>
-        <description>.</description>
+        <description>The Type 99 rifle was a frontline rifle developed around the mid-20th century to replace the less powerful Type 38.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99Arisaka</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -529,7 +528,7 @@
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type99ArisakaB</defName>
         <label>Type 99 Arisaka rifle</label>
-        <description>.</description>
+        <description>The Type 99 rifle was a frontline rifle developed around the mid-20th century to replace the less powerful Type 38. \n\nThis weapon comes with a bayonet attached, allowing for its use in melee combat.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99ArisakaB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -615,7 +614,7 @@
     <!-- ======================= [Type 99 Arisaka Sniper] ========================== -->
     <ThingDef ParentName="BaseBullet">
         <defName>HRK_Bullet_Type99ArisakaSR</defName>
-        <label>Type 99 sniper rifle bullet</label>
+        <label>Type 99 Arisaka sniper bullet</label>
         <graphicData>
             <texPath>Things/Projectile/Bullet_Big</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -631,9 +630,8 @@
 
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type99ArisakaSR</defName>
-        <label>Type 99 sniper rifle</label>
-        <description>.</description>
-        <possessionCount>1</possessionCount>
+        <label>Type 99 Arisaka sniper</label>
+        <description>The Type 99 sniper rifle is a Japanese sniper rifle used during the Second World War. It is a sniper version of the Type 99 rifle, chambered in the 7.7x58mm round.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99ArisakaSR</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -702,10 +700,10 @@
         </weaponTags>
     </ThingDef>
 
-    <!-- ======================= [Type 99 Aarisaka rifle grenade] ========================== -->
+    <!-- ======================= [Type 2 rifle grenade] ========================== -->
     <ThingDef ParentName="BaseBullet">
         <defName>HRK_Bullet_Type99ArisakaGL</defName>
-        <label>Type 99 rifle grenade</label>
+        <label>Type 2 rifle grenade</label>
         <graphicData>
             <texPath>Things/Projectile/Rocket_Big</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -726,8 +724,8 @@
 
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type99ArisakaGL</defName>
-        <label>Type 99 rifle grenade</label>
-        <description>.</description>
+        <label>Type 2 rifle grenade</label>
+        <description>The Type 2 rifle grenade launcher is an attachment for the Japanese Type 38 and Type 99 rifles that allow them to fire special hollow charge grenades. The launcher sits over the end of the barrel, held in place with a clamping device. A special crimped blank cartridge or wooden bullet is used to fire the grenades.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99ArisakaGL</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -821,7 +819,7 @@
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type11LMG</defName>
         <label>Type 11 LMG</label>
-        <description>.</description>
+        <description>The Type 11 LMG is a light machine gun used by the Imperial Japanese Army in the interwar period and during World War II. Instead of a belt or box magazine, the Type 11 was designed to hold up to six of the same cartridge clips used on the Type 38 rifle.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type11LMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -911,7 +909,7 @@
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type99LMG</defName>
         <label>Type 99 LMG</label>
-        <description>.</description>
+        <description>The Type 99 LMG is a light machine gun used by the Imperial Japanese Army in World War II. It was similar in design to the earlier Type 96 light machine gun, but designed to fire the new and more powerful 7.7 mm Arisaka cartridge, which improved energy by over 50%. Like the Type 96, the Type 99 traces its history to the ZB vz. 26, which also inspired the British Bren light machine gun.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99LMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -985,7 +983,7 @@
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type99LMGB</defName>
         <label>Type 99 LMG</label>
-        <description>.</description>
+        <description>The Type 99 LMG is a light machine gun used by the Imperial Japanese Army in World War II. It was similar in design to the earlier Type 96 light machine gun, but designed to fire the new and more powerful 7.7 mm Arisaka cartridge, which improved energy by over 50%. Like the Type 96, the Type 99 traces its history to the ZB vz. 26, which also inspired the British Bren light machine gun. \n\nThis weapon comes with a bayonet attached, allowing for its use in melee combat.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99LMGB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -1084,7 +1082,7 @@
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type97ATRifle</defName>
         <label>Type 97 anti-tank rifle</label>
-        <description>.</description>
+        <description>The Type 97 automatic cannon is a 20-millimeter Japanese anti-tank rifle that began development in the 1930s. It was used by the Imperial Japanese Army during Pacific War. Ever-greater thicknesses of armour on tanks rendered the Type 97 obsolete by about 1942.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type97ATRifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -1180,7 +1178,7 @@
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type89GrenadeDischarger</defName>
         <label>Type 89 grenade discharger</label>
-        <description>.</description>
+        <description>The Type 89 grenade discharger, inaccurately and colloquially known as a knee mortar by Allied forces, is a Japanese grenade launcher or light mortar that was widely used in the Pacific Theater of World War II. It got the nickname the "knee mortar" because of an erroneous Allied belief that these launchers could be fired by propping its plate against the leg. However, anyone trying to fire it this way would receive a severe bruise from its hefty recoil.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type89GrenadeDischarger</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -1250,7 +1248,7 @@
     <!-- ======================= [Type 4 Rocket Launcher] ========================== -->
     <ThingDef ParentName="BaseBullet">
         <defName>HRK_Bullet_Type470mmRL</defName>
-        <label>Type 4 70mm rocket</label>
+        <label>Type 4 rocket</label>
         <graphicData>
             <texPath>Things/Projectile/Rocket_Big</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -1267,8 +1265,8 @@
 
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type470mmRL</defName>
-        <label>Type 4 70mm</label>
-        <description>.</description>
+        <label>Type 4 rocket launcher</label>
+        <description>The Type 4 70mm AT rocket launcher is a Japanese rocket launcher used during the last year of World War II. It is comparable to the German panzerschreck and the American bazooka.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type470mmRL</texPath>
             <graphicClass>Graphic_Single</graphicClass>
