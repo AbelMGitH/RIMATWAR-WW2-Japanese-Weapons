@@ -759,6 +759,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>HRK_Bullet_Type99ArisakaGL</defaultProjectile>
                 <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
                 <warmupTime>3.5</warmupTime>
                 <range>24</range>
                 <forcedMissRadius>1.9</forcedMissRadius>
@@ -1086,9 +1087,10 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type97ATRifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.0</drawSize>
+            <drawSize>1.5</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
+        <generateCommonality>0.2</generateCommonality>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -1184,6 +1186,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <equippedAngleOffset>25</equippedAngleOffset>
         <generateCommonality>0.3</generateCommonality>
         <statBases>
             <WorkToMake>6000</WorkToMake>
@@ -1210,6 +1213,7 @@
                 <defaultProjectile>HRK_Bullet_Type89GrenadeDischarger</defaultProjectile>
                 <warmupTime>2.5</warmupTime>
                 <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
                 <range>18</range>
                 <forcedMissRadius>2.9</forcedMissRadius>
                 <burstShotCount>1</burstShotCount>
@@ -1300,6 +1304,7 @@
                 <defaultProjectile>HRK_Bullet_Type470mmRL</defaultProjectile>
                 <warmupTime>5.5</warmupTime>
                 <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
                 <range>33</range>
                 <forcedMissRadius>2.9</forcedMissRadius>
                 <burstShotCount>1</burstShotCount>
