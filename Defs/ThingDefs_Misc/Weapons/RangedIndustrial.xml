@@ -287,7 +287,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type100SMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.0</drawSize>
+            <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_SMG</soundInteract>
@@ -362,7 +362,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type100SMGB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.0</drawSize>
+            <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_SMG</soundInteract>
@@ -461,7 +461,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99Arisaka</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.0</drawSize>
+            <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
@@ -532,7 +532,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99ArisakaB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.0</drawSize>
+            <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
@@ -635,7 +635,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99ArisakaSR</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.0</drawSize>
+            <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
@@ -729,7 +729,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99ArisakaGL</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.0</drawSize>
+            <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
@@ -824,7 +824,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type11LMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.0</drawSize>
+            <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
@@ -914,7 +914,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99LMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.0</drawSize>
+            <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
@@ -988,7 +988,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99LMGB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.0</drawSize>
+            <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
@@ -1087,7 +1087,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type97ATRifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.5</drawSize>
+            <drawSize>1.4</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <generateCommonality>0.1</generateCommonality>
@@ -1274,7 +1274,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type470mmRL</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.0</drawSize>
+            <drawSize>1.2</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
