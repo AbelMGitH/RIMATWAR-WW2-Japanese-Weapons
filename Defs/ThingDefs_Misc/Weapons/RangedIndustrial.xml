@@ -1269,8 +1269,8 @@
 
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type470mmRL</defName>
-        <label>Type 4 rocket launcher</label>
-        <description>The Type 4 70mm AT rocket launcher is a Japanese rocket launcher used during the last year of World War II. It is comparable to the German panzerschreck and the American bazooka.</description>
+        <label>Type 4 74mm Rocket Launcher</label>
+        <description>The Type 4 74mm is a Japanese rocket launcher used during the last year of World War II. It is comparable to the German panzerschreck and the American bazooka.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type470mmRL</texPath>
             <graphicClass>Graphic_Single</graphicClass>
