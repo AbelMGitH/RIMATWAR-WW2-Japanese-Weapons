@@ -1090,7 +1090,7 @@
             <drawSize>1.5</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
-        <generateCommonality>0.2</generateCommonality>
+        <generateCommonality>0.1</generateCommonality>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisite>PrecisionRifling</researchPrerequisite>
