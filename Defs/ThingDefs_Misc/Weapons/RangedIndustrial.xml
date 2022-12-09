@@ -173,10 +173,10 @@
         </weaponTags>
     </ThingDef>
 
-    <!-- ======================= [Type 2 SMG] ========================== -->
+    <!-- ======================= [Type 1 Nambu SMG] ========================== -->
     <ThingDef ParentName="BaseBullet">
-        <defName>HRK_Bullet_Type2SMG</defName>
-        <label>Type 2 SMG bullet</label>
+        <defName>HRK_Bullet_Type1NambuSMG</defName>
+        <label>Type 1 Nambu SMG bullet</label>
         <graphicData>
             <texPath>Things/Projectile/Bullet_Small</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -191,11 +191,11 @@
     </ThingDef>
 
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
-        <defName>HRK_Type2SMG</defName>
-        <label>Type 2 SMG</label>
-        <description>The Type 2 SMG is a pre World War II experimental submachine gun of Japanese origin chambered in the 8mm Nambu round. The Type 2 is a blowback-operated submachine gun that fires from a closed bolt.</description>
+        <defName>HRK_Type1NambuSMG</defName>
+        <label>Type 1 Nambu SMG</label>
+        <description>The Type 1 Nambu SMG is a pre World War II experimental submachine gun of Japanese origin chambered in the 8mm Nambu round. The Type 1 is a blowback-operated submachine gun that fires from a closed bolt.</description>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type2SMG</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type1NambuSMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
@@ -224,7 +224,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>HRK_Bullet_Type2SMG</defaultProjectile>
+                <defaultProjectile>HRK_Bullet_Type1NambuSMG</defaultProjectile>
                 <warmupTime>0.5</warmupTime>
                 <range>18</range>
                 <burstShotCount>6</burstShotCount>
