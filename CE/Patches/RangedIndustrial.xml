@@ -729,6 +729,7 @@
         </FireModes>
         <weaponTags>
             <li>CE_AI_SR</li>
+            <li>Bipod_ATR</li>
         </weaponTags>
     </Operation>
 
@@ -810,6 +811,7 @@
         </FireModes>
         <weaponTags>
             <li>CE_AI_SR</li>
+            <li>Bipod_Rifle</li>
         </weaponTags>
     </Operation>
 
