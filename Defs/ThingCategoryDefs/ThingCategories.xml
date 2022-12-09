@@ -2,16 +2,30 @@
 
 <Defs>
 
+    <!--WeaponsRanged-->
     <ThingCategoryDef>
-        <defName>HRK_Category_RimAtWar</defName>
+        <defName>HRK_Category_RimAtWarWeaponsRanged</defName>
         <label>Rim At War</label>
         <parent>WeaponsRanged</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>
-        <defName>HRK_Category_RimAtWar_Japanese</defName>
-        <label>Japanese</label>
-        <parent>HRK_Category_RimAtWar</parent>
+        <defName>HRK_Category_RimAtWarWeaponsRanged_Japan</defName>
+        <label>Japan</label>
+        <parent>HRK_Category_RimAtWarWeaponsRanged</parent>
+    </ThingCategoryDef>
+
+    <!--Grenades-->
+    <ThingCategoryDef>
+        <defName>HRK_Category_RimAtWarGrenades</defName>
+        <label>Rim At War</label>
+        <parent>Grenades</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>HRK_Category_RimAtWarGrenades_Japan</defName>
+        <label>Japan</label>
+        <parent>HRK_Category_RimAtWarGrenades</parent>
     </ThingCategoryDef>
 
 </Defs>
