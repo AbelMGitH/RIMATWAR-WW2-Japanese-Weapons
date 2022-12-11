@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <!--===== TOOLS FOR THE EMPEROR =====-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[
+               
+                defName = "HRK_FLAMETHROWERTEST"
+                ]/tools
+        </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>grip</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>2</power>
+                    <cooldownTime>1.54</cooldownTime>
+                    <chanceFactor>1.5</chanceFactor>
+                    <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>muzzle</label>
+                    <capacities>
+                        <li>Poke</li>
+                    </capacities>
+                    <power>2</power>
+                    <cooldownTime>1.54</cooldownTime>
+                    <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>   
+
+    <!--===== Type 14 Nambu =====-->
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>HRK_FLAMETHROWERTEST</defName>
+        <statBases>
+            <WorkToMake>7000</WorkToMake>
+            <Mass>0.90</Mass>
+            <Bulk>2.30</Bulk>
+            <SwayFactor>1.07</SwayFactor>
+            <ShotSpread>0.17</ShotSpread>
+            <SightsEfficiency>0.70</SightsEfficiency>
+            <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>23</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>True</hasStandardCommand>
+            <defaultProjectile>Bullet_8x22mmNambu_FMJ</defaultProjectile>
+            <warmupTime>0.6</warmupTime>
+            <range>12</range>
+            <soundCast>Shot_AssaultRifle</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+            <recoilAmount>2.09</recoilAmount>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>8</magazineSize>
+            <reloadTime>4</reloadTime>
+            <ammoSet>AmmoSet_8x22mmNambu</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aiAimMode>Snapshot</aiAimMode>
+            <aiUseBurstMode>False</aiUseBurstMode>
+        </FireModes>
+        <weaponTags>
+            <li>CE_Sidearm</li>
+            <li>CE_AI_BROOM</li>
+            <li>CE_OneHandedWeapon</li>
+        </weaponTags>
+    </Operation>    
+
+</Patch>
