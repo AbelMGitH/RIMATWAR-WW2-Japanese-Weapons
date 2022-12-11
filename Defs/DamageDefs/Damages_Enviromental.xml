@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <DamageDef ParentName="Flame">
+        <defName>HRK_DamageDef_WhitePhosporus</defName>
+        <label>white phosporus</label>
+        <additionalHediffs>
+            <li>
+                <hediff>HRK_Hediff_WhitePhosphorus</hediff>
+                <severityPerDamageDealt>0.10</severityPerDamageDealt>
+            </li>
+        </additionalHediffs>
+    </DamageDef>
+
+</Defs>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef>
+    <defName>HRK_Hediff_WhitePhosphorus</defName>
+    <label>white phosphorus</label>
+    <description>exposed to white phosphorus</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-20</severityPerDay>
+      </li>
+      <li Class="HarkonRimAtWar.HediffCompProperties_WhitePhosphorus" />
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0.20</minSeverity>
+        <label>minor exposure</label>
+        <statOffsets>
+          <Flammability>0.2</Flammability>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.40</minSeverity>
+        <label>regular exposure</label>
+        <statOffsets>
+          <Flammability>0.4</Flammability>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>0.60</minSeverity>
+        <label>major exposure</label>
+        <statOffsets>
+          <Flammability>0.6</Flammability>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>
