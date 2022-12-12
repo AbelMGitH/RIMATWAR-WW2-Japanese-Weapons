@@ -15,8 +15,9 @@
         <label>50mm Type 89 Grenades</label>
         <ammoTypes>
             <Ammo_50mmType89Grenade_HE>Bullet_50mmType89Grenade_HE</Ammo_50mmType89Grenade_HE>
-            <Ammo_50mmType89Grenade_HE_TFuzed>Bullet_50mmType89Grenade_HE_TFuzed</Ammo_50mmType89Grenade_HE_TFuzed>
-            <Ammo_50mmType89Grenade_Incendiary>Bullet_50mmType89Grenade_Incendiary</Ammo_50mmType89Grenade_Incendiary>
+            <Ammo_50mmType89Grenade_Frag>Bullet_50mmType89Grenade_Frag</Ammo_50mmType89Grenade_Frag>
+            <Ammo_50mmType89Grenade_WhitePhosporus>Bullet_50mmType89Grenade_WhitePhosporus</Ammo_50mmType89Grenade_WhitePhosporus>
+            <Ammo_50mmType89Grenade_Smoke>Bullet_50mmType89Grenade_Smoke</Ammo_50mmType89Grenade_Smoke>
         </ammoTypes>
         <similarTo>AmmoSet_LauncherGrenade</similarTo>
     </CombatExtended.AmmoSetDef>
@@ -55,7 +56,7 @@
     </ThingDef>
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="50mmType89GrenadeBase">
-        <defName>Ammo_50mmType89Grenade_HE_TFuzed</defName>
+        <defName>Ammo_50mmType89Grenade_Frag</defName>
         <label>50mm Type 89 grenade (Frag)</label>
         <graphicData>
             <texPath>Things/Ammo/GrenadeLauncher/Japan/Frag</texPath>
@@ -69,7 +70,7 @@
     </ThingDef>
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="50mmType89GrenadeBase">
-        <defName>Ammo_50mmType89Grenade_Incendiary</defName>
+        <defName>Ammo_50mmType89Grenade_WhitePhosporus</defName>
         <label>50mm Type 89 grenade (White Phosphorus)</label>
         <graphicData>
             <texPath>Things/Ammo/GrenadeLauncher/Japan/WhitePhosphorus</texPath>
@@ -79,7 +80,22 @@
             <MarketValue>2.37</MarketValue>
         </statBases>
         <ammoClass>GrenadeWhitePhosphorus</ammoClass>
-        <detonateProjectile>Bullet_50mmType89Grenade_Incendiary</detonateProjectile>
+        <detonateProjectile>Bullet_50mmType89Grenade_WhitePhosporus</detonateProjectile>
+    </ThingDef>
+
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="50mmType89GrenadeBase">
+        <defName>Ammo_50mmType89Grenade_Smoke</defName>
+        <label>50mm Type 89 grenade (Smoke)</label>
+        <graphicData>
+            <texPath>Things/Ammo/GrenadeLauncher/Japan/WhitePhosphorus</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.84</MarketValue>
+        </statBases>
+        <ammoClass>Smoke</ammoClass>
+        <generateAllowChance>0</generateAllowChance>
+        <detonateProjectile>Bullet_50mmType89Grenade_Smoke</detonateProjectile>
     </ThingDef>
 
     <!-- ================== Projectiles ================== -->
@@ -87,7 +103,7 @@
     <ThingDef Name="Base50mmType89GrenadeBullet" ParentName="BaseBullet" Abstract="true">
         <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
-            <speed>20</speed>
+            <speed>10</speed>
         </projectile>
     </ThingDef>
 
@@ -115,7 +131,7 @@
     </ThingDef>
 
     <ThingDef ParentName="Base50mmType89GrenadeBullet">
-        <defName>Bullet_50mmType89Grenade_HE_TFuzed</defName>
+        <defName>Bullet_50mmType89Grenade_Frag</defName>
         <label>50mm Type 89 grenade (Frag)</label>
         <graphicData>
             <texPath>Things/Projectile/LauncherShot/Japan/Frag</texPath>
@@ -139,7 +155,7 @@
     </ThingDef>
 
     <ThingDef ParentName="Base50mmType89GrenadeBullet">
-        <defName>Bullet_50mmType89Grenade_Incendiary</defName>
+        <defName>Bullet_50mmType89Grenade_WhitePhosporus</defName>
         <label>50mm Type 89 grenade (White Phosphorus)</label>
         <graphicData>
             <texPath>Things/Projectile/LauncherShot/Japan/WhitePhosphorus</texPath>
@@ -152,6 +168,22 @@
             <damageAmountBase>20</damageAmountBase>
             <postExplosionSpawnThingDef>HRK_Filth_WhitePhosporus</postExplosionSpawnThingDef>
             <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="Base50mmType89GrenadeBullet">
+        <defName>Bullet_50mmType89Grenade_Smoke</defName>
+        <label>50mm Type 89 grenade (Smoke)</label>
+        <graphicData>
+            <texPath>Things/Projectile/LauncherShot/Japan/WhitePhosphorus</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(0.5,0.5)</drawSize>
+        </graphicData>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <explosionRadius>2</explosionRadius>
+            <damageDef>Smoke</damageDef>
+            <postExplosionGasType>BlindSmoke</postExplosionGasType>
+            <preExplosionSpawnChance>1</preExplosionSpawnChance>
         </projectile>
     </ThingDef>
 
@@ -202,11 +234,10 @@
     </RecipeDef>
 
     <RecipeDef ParentName="LauncherAmmoRecipeBase">
-        <defName>MakeAmmo_50mmType89Grenade_HE_TFuzed</defName>
+        <defName>MakeAmmo_50mmType89Grenade_Frag</defName>
         <label>make 50mm Type 89 frag grenades x100</label>
         <description>Craft 100 50mm Type 89 frag grenades.</description>
         <jobString>Making 50mm Type 89 frag grenades.</jobString>
-        <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>
@@ -230,7 +261,7 @@
                         <li>ComponentIndustrial</li>
                     </thingDefs>
                 </filter>
-                <count>6</count>
+                <count>2</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -241,20 +272,16 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <Ammo_50mmType89Grenade_HE_TFuzed>100</Ammo_50mmType89Grenade_HE_TFuzed>
+            <Ammo_50mmType89Grenade_Frag>100</Ammo_50mmType89Grenade_Frag>
         </products>
         <workAmount>11000</workAmount>
     </RecipeDef>
 
     <RecipeDef ParentName="LauncherAmmoRecipeBase">
-        <defName>MakeAmmo_50mmType89Grenade_Incendiary</defName>
+        <defName>MakeAmmo_50mmType89Grenade_WhitePhosporus</defName>
         <label>make 50mm Type 89 white phosphorus grenades x100</label>
         <description>Craft 100 50mm Type 89 white phosphorus grenades.</description>
         <jobString>Making 50mm Type 89 white phosphorus grenades.</jobString>
-        <researchPrerequisites>
-            <li>MicroelectronicsBasics</li>
-            <li>CE_Launchers</li>
-        </researchPrerequisites>
         <ingredients>
             <li>
                 <filter>
@@ -267,7 +294,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>ComponentIndustrial</li>
+                        <li>Prometheum</li>
                     </thingDefs>
                 </filter>
                 <count>10</count>
@@ -276,13 +303,57 @@
         <fixedIngredientFilter>
             <thingDefs>
                 <li>Steel</li>
+                <li>Prometheum</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Ammo_50mmType89Grenade_WhitePhosporus>100</Ammo_50mmType89Grenade_WhitePhosporus>
+        </products>
+        <workAmount>11000</workAmount>
+    </RecipeDef>
+
+    <RecipeDef ParentName="LauncherAmmoRecipeBase">
+        <defName>MakeAmmo_50mmType89Grenade_Smoke</defName>
+        <label>make 50mm Type 89 smoke grenades x100</label>
+        <description>Craft 100 50mm Type 89 smoke grenades.</description>
+        <jobString>Making 50mm Type 89 smoke grenades.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Prometheum</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Prometheum</li>
                 <li>ComponentIndustrial</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <Ammo_50mmType89Grenade_Incendiary>100</Ammo_50mmType89Grenade_Incendiary>
+            <Ammo_50mmType89Grenade_Smoke>100</Ammo_50mmType89Grenade_Smoke>
         </products>
-        <workAmount>11000</workAmount>
+        <workAmount>7400</workAmount>
     </RecipeDef>
 
 </Defs>
