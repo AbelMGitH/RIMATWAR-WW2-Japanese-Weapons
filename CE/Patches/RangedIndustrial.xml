@@ -527,7 +527,7 @@
         <Properties>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
             <hasStandardCommand>True</hasStandardCommand>
-            <defaultProjectile>Bullet_40mmType2RifleGrenade_HE</defaultProjectile>
+            <defaultProjectile>Bullet_50mmType89Grenade_HE</defaultProjectile>
             <warmupTime>1.1</warmupTime>
             <range>35</range>
             <soundCast>Shot_AssaultRifle</soundCast>
@@ -538,7 +538,7 @@
         <AmmoUser>
             <magazineSize>1</magazineSize>
             <reloadTime>0.85</reloadTime>
-            <ammoSet>AmmoSet_40mmType2RifleGrenade</ammoSet>
+            <ammoSet>AmmoSet_50mmType89Grenade</ammoSet>
         </AmmoUser>
         <FireModes>
             <aiAimMode>SuppressFire</aiAimMode>
@@ -752,7 +752,7 @@
         <Properties>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
             <hasStandardCommand>True</hasStandardCommand>
-            <defaultProjectile>Bullet_40mmType2RifleGrenade_HE</defaultProjectile>
+            <defaultProjectile>Bullet_50mmType89Grenade_HE</defaultProjectile>
             <warmupTime>1.1</warmupTime>
             <range>31</range>
             <soundCast>Shot_AssaultRifle</soundCast>
@@ -763,7 +763,7 @@
         <AmmoUser>
             <magazineSize>1</magazineSize>
             <reloadTime>0.85</reloadTime>
-            <ammoSet>AmmoSet_40mmType2RifleGrenade</ammoSet>
+            <ammoSet>AmmoSet_50mmType89Grenade</ammoSet>
         </AmmoUser>
         <FireModes>
             <aiAimMode>SuppressFire</aiAimMode>

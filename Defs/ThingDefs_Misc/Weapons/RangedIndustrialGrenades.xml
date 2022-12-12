@@ -81,16 +81,16 @@
     <!-- ======================= [Type 89 (Incendiary)] ========================== -->
     <ThingDef ParentName="BaseGrenadeProjectile">
         <defName>HRK_Proj_Type89Grenade</defName>
-        <label>Type 89 white phosphorus grenade</label>
+        <label>TEST phosphorus grenade</label>
         <graphicData>
             <texPath>Things/Projectile/HRK_Type89Grenade</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile>
-            <explosionRadius>2.1</explosionRadius>
-            <damageDef>Flame</damageDef>
+            <explosionRadius>1.1</explosionRadius>
+            <damageDef>HRK_DamageDef_WhitePhosporus</damageDef>
             <!-- Use default damage from explosion def -->
-            <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+            <preExplosionSpawnThingDef>HRK_Filth_WhitePhosporus</preExplosionSpawnThingDef>
             <ai_IsIncendiary>true</ai_IsIncendiary>
             <shadowSize>0.6</shadowSize>
             <screenShakeFactor>0.5</screenShakeFactor>
@@ -149,8 +149,8 @@
         </verbs>
         <comps>
             <li Class="CompProperties_Explosive">
-                <explosiveRadius>2.66</explosiveRadius>
-                <explosiveDamageType>Flame</explosiveDamageType>
+                <explosiveRadius>1.1</explosiveRadius>
+                <explosiveDamageType>HRK_DamageDef_WhitePhosporus</explosiveDamageType>
                 <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
             </li>
         </comps>

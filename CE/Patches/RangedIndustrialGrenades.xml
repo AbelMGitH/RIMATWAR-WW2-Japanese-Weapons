@@ -2,6 +2,11 @@
 
 <Patch>
     <!-- ========== Kill recipe maker ========== -->
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>Defs/ThingDef[defName="HRK_Type97Grenade" or defName="HRK_Type89Grenade" or defName="HRK_Type3Grenade"]</xpath>
+        <attribute>Class</attribute>
+        <value>CombatExtended.AmmoDef</value>
+    </Operation>
 
     <Operation Class="PatchOperationAttributeSet">
         <xpath>Defs/ThingDef[defName="HRK_Type97Grenade" or defName="HRK_Type89Grenade" or defName="HRK_Type3Grenade" or defName="HRK_Type4Grenade"]</xpath>
@@ -173,16 +178,15 @@
                 </graphicData>
                 <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
                 <projectile Class="CombatExtended.ProjectilePropertiesCE">
-                    <explosionRadius>2.5</explosionRadius>
-                    <damageDef>Flame</damageDef>
+                    <explosionRadius>1.1</explosionRadius>
+                    <damageDef>HRK_DamageDef_WhitePhosporus</damageDef>
                     <damageAmountBase>10</damageAmountBase>
-                    <explosionDelay>30</explosionDelay>
+                    <explosionDelay>0</explosionDelay>
                     <soundExplode>Explosion_Flame</soundExplode>
                     <dropsCasings>true</dropsCasings>
                     <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
-                    <postExplosionSpawnThingDef>Filth_Fuel</postExplosionSpawnThingDef>
-                    <postExplosionSpawnChance>0.05</postExplosionSpawnChance>                    <!--Leaves a very small amount of fuel to burn for a bit-->
-                    <postExplosionSpawnThingCount>2</postExplosionSpawnThingCount>
+                    <postExplosionSpawnThingDef>HRK_Filth_WhitePhosporus</postExplosionSpawnThingDef>
+                    <postExplosionSpawnChance>1</postExplosionSpawnChance>
                     <speed>10</speed>
                     <gravityFactor>2</gravityFactor>
                 </projectile>
@@ -229,9 +233,9 @@
         <value>
             <comps>
                 <li Class="CombatExtended.CompProperties_ExplosiveCE">
-                    <damageAmountBase>56</damageAmountBase>
-                    <explosiveDamageType>Flame</explosiveDamageType>
-                    <explosiveRadius>1.5</explosiveRadius>
+                    <damageAmountBase>25</damageAmountBase>
+                    <explosiveDamageType>HRK_DamageDef_WhitePhosporus</explosiveDamageType>
+                    <explosiveRadius>1.1</explosiveRadius>
                 </li>
             </comps>
         </value>
