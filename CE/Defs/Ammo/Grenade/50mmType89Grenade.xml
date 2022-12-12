@@ -104,6 +104,7 @@
         <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <speed>10</speed>
+            <gravityFactor>0.1</gravityFactor>
         </projectile>
     </ThingDef>
 
