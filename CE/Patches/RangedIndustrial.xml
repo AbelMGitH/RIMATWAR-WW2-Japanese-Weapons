@@ -527,7 +527,7 @@
         <Properties>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
             <hasStandardCommand>True</hasStandardCommand>
-            <defaultProjectile>Bullet_50mmType89Grenade_HE</defaultProjectile>
+            <defaultProjectile>Bullet_30mmType2Grenade_HE</defaultProjectile>
             <warmupTime>1.1</warmupTime>
             <range>35</range>
             <soundCast>Shot_AssaultRifle</soundCast>
@@ -541,7 +541,7 @@
         <AmmoUser>
             <magazineSize>1</magazineSize>
             <reloadTime>0.85</reloadTime>
-            <ammoSet>AmmoSet_50mmType89Grenade</ammoSet>
+            <ammoSet>AmmoSet_30mmType2Grenade</ammoSet>
         </AmmoUser>
         <FireModes>
             <aiAimMode>SuppressFire</aiAimMode>

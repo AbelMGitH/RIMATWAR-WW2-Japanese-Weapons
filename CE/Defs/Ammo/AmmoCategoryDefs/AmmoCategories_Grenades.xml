@@ -15,4 +15,11 @@
         <description>Filled with white phosphorus. The chemical is dispersed on impact, increasing the temperature and covering the area and pawns in flames.</description>
     </CombatExtended.AmmoCategoryDef>
 
+    <CombatExtended.AmmoCategoryDef>
+        <defName>GrenadeHEAT</defName>
+        <label>high-explosive anti-tank</label>
+        <labelShort>HEAT</labelShort>
+        <description>Shaped charge warhead. Detonates on impact, creating a super-heated stream of molten metal that punches through enemy armor.</description>
+    </CombatExtended.AmmoCategoryDef>
+
 </Defs>
