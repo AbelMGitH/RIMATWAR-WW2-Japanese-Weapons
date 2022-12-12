@@ -31,10 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>..\..\..\..\..\..\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
@@ -53,8 +49,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FlamethrowerPack.cs" />
-    <Compile Include="Harmony_Patch.cs" />
     <Compile Include="HediffCompProperties_WhitePhosphorus.cs" />
     <Compile Include="HediffComp_WhitePhosphorus.cs" />
     <Compile Include="WhitePhosphorus.cs" />
