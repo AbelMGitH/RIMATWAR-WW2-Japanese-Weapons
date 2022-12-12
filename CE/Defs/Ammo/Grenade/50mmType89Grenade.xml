@@ -15,8 +15,8 @@
         <label>50mm Type 89 Grenades</label>
         <ammoTypes>
             <Ammo_50mmType89Grenade_HE>Bullet_50mmType89Grenade_HE</Ammo_50mmType89Grenade_HE>
-            <Ammo_50mmType89Grenade_HE_TFuzed>Bullet_50mmType89Grenade_HE_TFuzed</Ammo_50mmType89Grenade_HE_TFuzed>            
-            <Ammo_50mmType89Grenade_Incendiary>Bullet_50mmType89Grenade_EMP</Ammo_50mmType89Grenade_Incendiary>            
+            <Ammo_50mmType89Grenade_HE_TFuzed>Bullet_50mmType89Grenade_HE_TFuzed</Ammo_50mmType89Grenade_HE_TFuzed>
+            <Ammo_50mmType89Grenade_Incendiary>Bullet_50mmType89Grenade_Incendiary</Ammo_50mmType89Grenade_Incendiary>
         </ammoTypes>
         <similarTo>AmmoSet_LauncherGrenade</similarTo>
     </CombatExtended.AmmoSetDef>
@@ -44,7 +44,7 @@
         <defName>Ammo_50mmType89Grenade_HE</defName>
         <label>50mm Type 89 grenade (HE)</label>
         <graphicData>
-            <texPath>Things/Ammo/GrenadeLauncher/HE</texPath>
+            <texPath>Things/Ammo/GrenadeLauncher/Japan/HE</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -58,7 +58,7 @@
         <defName>Ammo_50mmType89Grenade_HE_TFuzed</defName>
         <label>50mm Type 89 grenade (HE Time Fuzed)</label>
         <graphicData>
-            <texPath>Things/Ammo/GrenadeLauncher/HE</texPath>
+            <texPath>Things/Ammo/GrenadeLauncher/Japan/Frag</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -67,21 +67,21 @@
         <ammoClass>GrenadeHETF</ammoClass>
         <detonateProjectile>Bullet_50mmType89Grenade_HE</detonateProjectile>
     </ThingDef>
-   
+
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="50mmType89GrenadeBase">
         <defName>Ammo_50mmType89Grenade_Incendiary</defName>
-        <label>50mm Type 89 grenade (EMP)</label>
+        <label>50mm Type 89 grenade (Incendiary)</label>
         <graphicData>
-            <texPath>Things/Ammo/GrenadeLauncher/EMP</texPath>
+            <texPath>Things/Ammo/GrenadeLauncher/Japan/WhitePhosphorus</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>4.25</MarketValue>
         </statBases>
-        <ammoClass>GrenadeEMP</ammoClass>
+        <ammoClass>GrenadeIncendiary</ammoClass>
         <generateAllowChance>0.5</generateAllowChance>
-        <detonateProjectile>Bullet_50mmType89Grenade_EMP</detonateProjectile>
-    </ThingDef>    
+        <detonateProjectile>Bullet_50mmType89Grenade_Incendiary</detonateProjectile>
+    </ThingDef>
 
     <!-- ================== Projectiles ================== -->
 
@@ -135,17 +135,17 @@
                 <fragAngleRange>-89~-5</fragAngleRange>
             </li>
         </comps>
-    </ThingDef>   
+    </ThingDef>
 
     <ThingDef ParentName="Base50mmType89GrenadeBullet">
-        <defName>Bullet_50mmType89Grenade_EMP</defName>
-        <label>50mm Type 89 grenade (EMP)</label>
+        <defName>Bullet_50mmType89Grenade_Incendiary</defName>
+        <label>50mm Type 89 grenade (Incendiary)</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <explosionRadius>1.5</explosionRadius>
-            <damageDef>EMP</damageDef>
+            <damageDef>HRK_DamageDef_WhitePhosporus</damageDef>
             <damageAmountBase>20</damageAmountBase>
         </projectile>
-    </ThingDef>    
+    </ThingDef>
 
     <!-- ==================== Recipes ========================== -->
 
@@ -236,13 +236,13 @@
             <Ammo_50mmType89Grenade_HE_TFuzed>100</Ammo_50mmType89Grenade_HE_TFuzed>
         </products>
         <workAmount>11000</workAmount>
-    </RecipeDef>    
+    </RecipeDef>
 
     <RecipeDef ParentName="LauncherAmmoRecipeBase">
         <defName>MakeAmmo_50mmType89Grenade_Incendiary</defName>
-        <label>make 50mm Type 89 EMP grenades x100</label>
-        <description>Craft 100 50mm Type 89 EMP grenades.</description>
-        <jobString>Making 50mm Type 89 EMP grenades.</jobString>
+        <label>make 50mm Type 89 Incendiary grenades x100</label>
+        <description>Craft 100 50mm Type 89 Incendiary grenades.</description>
+        <jobString>Making 50mm Type 89 Incendiary grenades.</jobString>
         <researchPrerequisites>
             <li>MicroelectronicsBasics</li>
             <li>CE_Launchers</li>
@@ -275,6 +275,6 @@
             <Ammo_50mmType89Grenade_Incendiary>100</Ammo_50mmType89Grenade_Incendiary>
         </products>
         <workAmount>11000</workAmount>
-    </RecipeDef>    
+    </RecipeDef>
 
 </Defs>
