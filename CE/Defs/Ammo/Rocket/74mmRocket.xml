@@ -28,6 +28,8 @@
         <tradeTags>
             <li>CE_AutoEnableTrade</li>
             <li>CE_AutoEnableCrafting_TableMachining</li>
+            <li>CE_AutoEnableCrafting_FueledSmithy</li>
+            <li>CE_AutoEnableCrafting_ElectricSmithy</li>
         </tradeTags>
         <thingCategories>
             <li>Ammo74mmRockets</li>
@@ -94,6 +96,7 @@
         <description>Craft 5 74mm HEAT rockets.</description>
         <jobString>Making 74mm HEAT rockets.</jobString>
         <workAmount>7900</workAmount>
+        <researchPrerequisite>HRK_Research_SimpleHeavyWeapons</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>
