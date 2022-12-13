@@ -14,10 +14,6 @@
         <value>BaseWeapon</value>
     </Operation>
 
-    <Operation Class="PatchOperationRemove">
-        <xpath>Defs/ThingDef[defName="HRK_Type97Grenade" or defName="HRK_Type3Grenade" or defName="HRK_Type4Grenade"]/recipeMaker</xpath>
-    </Operation>
-
     <!--===== TOOLS FOR THE EMPEROR =====-->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="HRK_Type97Grenade" or defName="HRK_Type3Grenade" or defName="HRK_Type4Grenade"]</xpath>
