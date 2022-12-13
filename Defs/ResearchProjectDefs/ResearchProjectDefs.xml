@@ -53,6 +53,7 @@
         <prerequisites>
             <li>Smithing</li>
             <li MayRequire="VanillaExpanded.VWE">VWE_Gunpowder</li>
+            <li MayRequire="CETeam.CombatExtendedGuns">Gunpowder</li>
         </prerequisites>
         <researchViewX>1</researchViewX>
         <researchViewY>0</researchViewY>
