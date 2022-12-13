@@ -6,7 +6,7 @@
         <label>make Type 97 frag grenades x10</label>
         <description>Craft 10 Type 97 frag grenades.</description>
         <jobString>Making Type 97 frag grenades.</jobString>
-        <researchPrerequisite>Machining</researchPrerequisite>
+        <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
         <workAmount>3600</workAmount>
         <ingredients>
             <li>
@@ -51,7 +51,7 @@
         <label>make Type 3 impact grenades x10</label>
         <description>Craft 10 Type 3 impact grenades.</description>
         <jobString>Making Type 3 impact grenades.</jobString>
-        <researchPrerequisite>Machining</researchPrerequisite>
+        <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
         <workAmount>3600</workAmount>
         <ingredients>
             <li>
@@ -96,7 +96,7 @@
         <label>make Type 4 explosive charge x1</label>
         <description>Craft 10 Type 4 explosive charge.</description>
         <jobString>Making Type 4 explosive charge.</jobString>
-        <researchPrerequisite>Machining</researchPrerequisite>
+        <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
         <workAmount>3600</workAmount>
         <ingredients>
             <li>
