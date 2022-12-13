@@ -377,6 +377,7 @@
         <weaponTags>
             <li>CE_SMG</li>
             <li>CE_AI_BROOM</li>
+            <li>NoSwitch</li>
         </weaponTags>
     </Operation>
 
@@ -461,6 +462,7 @@
         </FireModes>
         <weaponTags>
             <li>CE_AI_SR</li>
+            <li>NoSwitch</li>
         </weaponTags>
     </Operation>
 
@@ -690,6 +692,7 @@
             <li>CE_MachineGun</li>
             <li>CE_AI_LMG</li>
             <li>Bipod_LMG</li>
+            <li>NoSwitch</li>
         </weaponTags>
     </Operation>
 
