@@ -52,6 +52,7 @@
         <techLevel>Industrial</techLevel>
         <prerequisites>
             <li>Smithing</li>
+            <li MayRequire="VanillaExpanded.VWE">VWE_Gunpowder</li>
         </prerequisites>
         <researchViewX>1</researchViewX>
         <researchViewY>0</researchViewY>

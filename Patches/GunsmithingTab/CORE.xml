@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+    <!-- ======================= [ToxGas] ========================== -->
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Biotech">
+                <xpath>Defs/ResearchProjectDef[defName="ToxGas"]/tab</xpath>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>Defs/ResearchProjectDef[defName="ToxGas"]</xpath>
+                    <value>
+                        <tab>HRK_ResearchTab_Gunsmithing</tab>
+                    </value>
+                </nomatch>
+                <match Class="PatchOperationReplace">
+                    <xpath>Defs/ResearchProjectDef[defName="ToxGas"]/tab</xpath>
+                    <value>
+                        <tab>HRK_ResearchTab_Gunsmithing</tab>
+                    </value>
+                </match>
+            </li>
+
+            <li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+                <xpath>Defs/ResearchProjectDef[defName="ToxGas"]/researchViewX</xpath>
+                <value>
+                    <researchViewX>5</researchViewX>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+                <xpath>Defs/ResearchProjectDef[defName="ToxGas"]/researchViewY</xpath>
+                <value>
+                    <researchViewY>0.70</researchViewY>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace" MayRequire="Ludeon.Rimworld.Biotech">
+                <xpath>Defs/ResearchProjectDef[defName="ToxGas"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>Gunsmithing</li>
+                    </prerequisites>
+                </value>
+            </li>
+        </operations>
+    </Operation>
 
     <!-- ======================= [IEDs] ========================== -->
     <Operation Class="PatchOperationConditional">
@@ -61,7 +104,7 @@
         <value>
             <researchViewY>0</researchViewY>
         </value>
-    </Operation>
+    </Operation>    
 
     <!-- ======================= [BlowbackOperation] ========================== -->
     <Operation Class="PatchOperationConditional">

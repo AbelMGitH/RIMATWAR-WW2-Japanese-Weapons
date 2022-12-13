@@ -13,4 +13,11 @@
         </value>
     </Operation>
 
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/label</xpath>
+        <value>
+            <label>modern gunsmithing</label>
+        </value>
+    </Operation>
+
 </Patch>
