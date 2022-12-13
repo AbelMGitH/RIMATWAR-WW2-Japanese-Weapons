@@ -25,7 +25,7 @@
     <!-- ==================== Ammo ========================== -->
 
     <ThingDef Class="CombatExtended.AmmoDef" Name="50mmType89GrenadeBase" ParentName="AmmoBase" Abstract="True">
-        <description>Low velocity grenade fired from handheld grenade launchers.</description>
+        <description>Low velocity grenade fired from japanese Type 89 grenade launchers.</description>
         <statBases>
             <Mass>0.239</Mass>
             <Bulk>0.40</Bulk>
@@ -45,7 +45,7 @@
         <defName>Ammo_50mmType89Grenade_HE</defName>
         <label>50mm Type 89 grenade (HE)</label>
         <graphicData>
-            <texPath>Things/Ammo/GrenadeLauncher/Japan/HE</texPath>
+            <texPath>Things/Ammo/GrenadeLauncher/Japan/50mm/HE</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -59,7 +59,7 @@
         <defName>Ammo_50mmType89Grenade_Frag</defName>
         <label>50mm Type 89 grenade (Frag)</label>
         <graphicData>
-            <texPath>Things/Ammo/GrenadeLauncher/Japan/Frag</texPath>
+            <texPath>Things/Ammo/GrenadeLauncher/Japan/50mm/Frag</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -73,7 +73,7 @@
         <defName>Ammo_50mmType89Grenade_WhitePhosporus</defName>
         <label>50mm Type 89 grenade (White Phosphorus)</label>
         <graphicData>
-            <texPath>Things/Ammo/GrenadeLauncher/Japan/WhitePhosphorus</texPath>
+            <texPath>Things/Ammo/GrenadeLauncher/Japan/50mm/WhitePhosphorus</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -87,7 +87,7 @@
         <defName>Ammo_50mmType89Grenade_Smoke</defName>
         <label>50mm Type 89 grenade (Smoke)</label>
         <graphicData>
-            <texPath>Things/Ammo/GrenadeLauncher/Japan/WhitePhosphorus</texPath>
+            <texPath>Things/Ammo/GrenadeLauncher/Japan/50mm/SMK</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -103,6 +103,11 @@
     <ThingDef Name="Base50mmType89GrenadeBullet" ParentName="BaseBullet" Abstract="true">
         <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <graphicData>
+                <texPath>Things/Projectile/LauncherShot/Japan/HE</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>(1.0,1.0)</drawSize>
+            </graphicData>
             <speed>10</speed>
             <gravityFactor>0.1</gravityFactor>
         </projectile>
@@ -114,7 +119,6 @@
         <graphicData>
             <texPath>Things/Projectile/LauncherShot/Japan/HE</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(0.5,0.5)</drawSize>
         </graphicData>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <explosionRadius>1.0</explosionRadius >
@@ -137,7 +141,6 @@
         <graphicData>
             <texPath>Things/Projectile/LauncherShot/Japan/Frag</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(0.5,0.5)</drawSize>
         </graphicData>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <explosionRadius>1.0</explosionRadius >
@@ -161,7 +164,6 @@
         <graphicData>
             <texPath>Things/Projectile/LauncherShot/Japan/WhitePhosphorus</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(0.5,0.5)</drawSize>
         </graphicData>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <explosionRadius>1.0</explosionRadius>
@@ -176,9 +178,8 @@
         <defName>Bullet_50mmType89Grenade_Smoke</defName>
         <label>50mm Type 89 grenade (Smoke)</label>
         <graphicData>
-            <texPath>Things/Projectile/LauncherShot/Japan/WhitePhosphorus</texPath>
+            <texPath>Things/Projectile/LauncherShot/Japan/SMK</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(0.5,0.5)</drawSize>
         </graphicData>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <explosionRadius>2</explosionRadius>
