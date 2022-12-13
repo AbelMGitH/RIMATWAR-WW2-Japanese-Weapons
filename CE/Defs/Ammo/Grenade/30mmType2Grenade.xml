@@ -102,12 +102,12 @@
 
     <ThingDef Name="Base30mmType2GrenadeBullet" ParentName="BaseBullet" Abstract="true">
         <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/LauncherShot/Japan/HE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(0.9,0.9)</drawSize>
+        </graphicData>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
-            <graphicData>
-                <texPath>Things/Projectile/LauncherShot/Japan/HE</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <drawSize>(0.9,0.9)</drawSize>
-            </graphicData>
             <speed>15</speed>
             <flyOverhead>false</flyOverhead>
         </projectile>
