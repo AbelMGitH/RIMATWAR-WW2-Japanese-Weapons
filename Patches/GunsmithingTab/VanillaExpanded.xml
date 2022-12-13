@@ -30,7 +30,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWE">
                 <xpath>Defs/ResearchProjectDef[defName="VWE_Gunpowder"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>0</researchViewY>
+                    <researchViewY>0.70</researchViewY>
                 </value>
             </li>
 
@@ -61,7 +61,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWE">
                 <xpath>Defs/ResearchProjectDef[defName="VWE_HeavyWeapons"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>2.10</researchViewY>
+                    <researchViewY>2.80</researchViewY>
                 </value>
             </li>
 
@@ -92,7 +92,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWE">
                 <xpath>Defs/ResearchProjectDef[defName="VWE_Flamethrower"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>0.70</researchViewY>
+                    <researchViewY>1.40</researchViewY>
                 </value>
             </li>
 
@@ -123,7 +123,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWE">
                 <xpath>Defs/ResearchProjectDef[defName="VWE_SpecializedFirearms"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>0</researchViewY>
+                    <researchViewY>0.70</researchViewY>
                 </value>
             </li>
 
@@ -154,7 +154,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWE">
                 <xpath>Defs/ResearchProjectDef[defName="VWE_DesignatedMarksmanRifle"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>0.70</researchViewY>
+                    <researchViewY>1.40</researchViewY>
                 </value>
             </li>
 
@@ -185,7 +185,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWE">
                 <xpath>Defs/ResearchProjectDef[defName="VWE_TacticalGrenades"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>1.40</researchViewY>
+                    <researchViewY>2.10</researchViewY>
                 </value>
             </li>
 
@@ -216,7 +216,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWE">
                 <xpath>Defs/ResearchProjectDef[defName="VWE_LaserTargetingSystems"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>2.10</researchViewY>
+                    <researchViewY>2.80</researchViewY>
                 </value>
             </li>
 
@@ -247,7 +247,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWEMS">
                 <xpath>Defs/ResearchProjectDef[defName="VWE_MakeshiftWeapons"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>1.40</researchViewY>
+                    <researchViewY>2.10</researchViewY>
                 </value>
             </li>
 
@@ -278,7 +278,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWEQ">
                 <xpath>Defs/ResearchProjectDef[defName="VWE_Quickdraw"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>1.40</researchViewY>
+                    <researchViewY>2.10</researchViewY>
                 </value>
             </li>
 
@@ -309,7 +309,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWEHW">
                 <xpath>Defs/ResearchProjectDef[defName="VWE_Quickdraw"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>1.40</researchViewY>
+                    <researchViewY>2.10</researchViewY>
                 </value>
             </li>
 
@@ -340,7 +340,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWEFT">
                 <xpath>Defs/ResearchProjectDef[defName="VWEFT_FrontierWeapons"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>1.40</researchViewY>
+                    <researchViewY>2.10</researchViewY>
                 </value>
             </li>
 
@@ -371,7 +371,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWEC">
                 <xpath>Defs/ResearchProjectDef[defName="VWE_MassDrivers"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>0</researchViewY>
+                    <researchViewY>0.70</researchViewY>
                 </value>
             </li>
 
@@ -402,7 +402,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWEL">
                 <xpath>Defs/ResearchProjectDef[defName="VWE_LaserWeapons"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>0</researchViewY>
+                    <researchViewY>0.70</researchViewY>
                 </value>
             </li>
 
@@ -433,7 +433,7 @@
             <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWENL">
                 <xpath>Defs/ResearchProjectDef[defName="VWE_NonLethal"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>1.40</researchViewY>
+                    <researchViewY>2.10</researchViewY>
                 </value>
             </li>
 

@@ -29,7 +29,7 @@
             <li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
                 <xpath>Defs/ResearchProjectDef[defName="ToxGas"]/researchViewY</xpath>
                 <value>
-                    <researchViewY>0.70</researchViewY>
+                    <researchViewY>1.40</researchViewY>
                 </value>
             </li>
 
@@ -71,7 +71,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="IEDs"]/researchViewY</xpath>
         <value>
-            <researchViewY>2.10</researchViewY>
+            <researchViewY>2.80</researchViewY>
         </value>
     </Operation>
 
@@ -102,9 +102,9 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/researchViewY</xpath>
         <value>
-            <researchViewY>0</researchViewY>
+            <researchViewY>0.70</researchViewY>
         </value>
-    </Operation>    
+    </Operation>
 
     <!-- ======================= [BlowbackOperation] ========================== -->
     <Operation Class="PatchOperationConditional">
@@ -133,7 +133,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/researchViewY</xpath>
         <value>
-            <researchViewY>0</researchViewY>
+            <researchViewY>0.70</researchViewY>
         </value>
     </Operation>
 
@@ -164,7 +164,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="GasOperation"]/researchViewY</xpath>
         <value>
-            <researchViewY>0</researchViewY>
+            <researchViewY>0.70</researchViewY>
         </value>
     </Operation>
 
@@ -195,7 +195,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/researchViewY</xpath>
         <value>
-            <researchViewY>0</researchViewY>
+            <researchViewY>0.70</researchViewY>
         </value>
     </Operation>
 
@@ -226,7 +226,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="ChargedShot"]/researchViewY</xpath>
         <value>
-            <researchViewY>0</researchViewY>
+            <researchViewY>0.70</researchViewY>
         </value>
     </Operation>
 
@@ -257,7 +257,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="Mortars"]/researchViewY</xpath>
         <value>
-            <researchViewY>2.10</researchViewY>
+            <researchViewY>2.80</researchViewY>
         </value>
     </Operation>
 
@@ -288,7 +288,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="GunTurrets"]/researchViewY</xpath>
         <value>
-            <researchViewY>2.10</researchViewY>
+            <researchViewY>2.80</researchViewY>
         </value>
     </Operation>
 
@@ -319,7 +319,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]/researchViewY</xpath>
         <value>
-            <researchViewY>0.70</researchViewY>
+            <researchViewY>1.40</researchViewY>
         </value>
     </Operation>
 
@@ -350,7 +350,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="HeavyTurrets"]/researchViewY</xpath>
         <value>
-            <researchViewY>2.10</researchViewY>
+            <researchViewY>2.80</researchViewY>
         </value>
     </Operation>
 
@@ -381,7 +381,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="FoamTurret"]/researchViewY</xpath>
         <value>
-            <researchViewY>2.80</researchViewY>
+            <researchViewY>3.50</researchViewY>
         </value>
     </Operation>
 
@@ -412,7 +412,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="SniperTurret"]/researchViewY</xpath>
         <value>
-            <researchViewY>2.10</researchViewY>
+            <researchViewY>2.80</researchViewY>
         </value>
     </Operation>
 
@@ -443,7 +443,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="RocketswarmLauncher"]/researchViewY</xpath>
         <value>
-            <researchViewY>2.80</researchViewY>
+            <researchViewY>3.50</researchViewY>
         </value>
     </Operation>
 

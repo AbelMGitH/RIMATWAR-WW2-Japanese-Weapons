@@ -12,7 +12,7 @@
             <li>HRK_Research_SimpleAutomaticDesigns</li>
         </prerequisites>
         <researchViewX>3</researchViewX>
-        <researchViewY>0</researchViewY>
+        <researchViewY>0.70</researchViewY>
         <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
@@ -26,7 +26,7 @@
             <li>HRK_Research_SimpleGunsmithing</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
-        <researchViewY>1.40</researchViewY>
+        <researchViewY>2.10</researchViewY>
         <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
@@ -40,7 +40,7 @@
             <li>HRK_Research_SimpleGunsmithing</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
-        <researchViewY>0</researchViewY>
+        <researchViewY>0.70</researchViewY>
         <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
@@ -56,7 +56,7 @@
             <li MayRequire="CETeam.CombatExtendedGuns">Gunpowder</li>
         </prerequisites>
         <researchViewX>1</researchViewX>
-        <researchViewY>0</researchViewY>
+        <researchViewY>0.70</researchViewY>
         <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
@@ -70,7 +70,7 @@
             <li>HRK_Research_SimpleGunsmithing</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
-        <researchViewY>0.70</researchViewY>
+        <researchViewY>1.40</researchViewY>
         <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 
