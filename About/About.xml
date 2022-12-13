@@ -18,17 +18,19 @@
 		</li>-->
 	</modDependencies>
 	<loadAfter>
+		<li>Harkon.GunNut.CORE</li>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>Ludeon.RimWorld.Biotech</li>
-		<li>Harkon.GunNut.CORE</li>
 		<li>CETeam.CombatExtended</li>
 		<li>VanillaExpanded.VWEQ</li>
 		<li>VanillaExpanded.VWEL</li>
 		<li>VanillaExpanded.VWEHW</li>
 		<li>VanillaExpanded.VWEC</li>
 		<li>VanillaExpanded.VWEFT</li>
+		<li>VanillaExpanded.VWENL</li>
+		<li>VanillaExpanded.VWEMS</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
 		<li>VanillaExpanded.VWE</li>
 		<li>Samael.PCA</li>
