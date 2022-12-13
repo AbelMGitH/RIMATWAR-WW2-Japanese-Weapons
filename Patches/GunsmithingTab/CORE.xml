@@ -292,7 +292,7 @@
         </value>
     </Operation>
 
-    <!-- ======================= [GunTurrets] ========================== -->
+    <!-- ======================= [MultibarrelWeapons] ========================== -->
     <Operation Class="PatchOperationConditional">
         <xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]/tab</xpath>
         <nomatch Class="PatchOperationAdd">
