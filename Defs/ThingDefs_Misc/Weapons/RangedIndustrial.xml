@@ -29,7 +29,7 @@
         </graphicData>
         <soundInteract>Interact_Autopistol</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleGunsmithing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -129,6 +129,7 @@
             <WoodLog>5</WoodLog>
         </costList>
         <recipeMaker>
+            <researchPrerequisite>HRK_Research_SimpleGunsmithing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -201,7 +202,7 @@
         </graphicData>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -292,7 +293,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
@@ -367,7 +368,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
@@ -480,10 +481,10 @@
             <WoodLog>10</WoodLog>
         </costList>
         <recipeMaker>
+            <researchPrerequisite>HRK_Research_SimpleGunsmithing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <displayPriority>415</displayPriority>
         </recipeMaker>
         <verbs>
             <li>
@@ -551,10 +552,10 @@
             <WoodLog>10</WoodLog>
         </costList>
         <recipeMaker>
+            <researchPrerequisite>HRK_Research_SimpleGunsmithing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <displayPriority>415</displayPriority>
         </recipeMaker>
         <verbs>
             <li>
@@ -640,7 +641,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleOptics</researchPrerequisite>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
@@ -745,10 +746,7 @@
             <WoodLog>15</WoodLog>
         </costList>
         <recipeMaker>
-            <recipeUsers>
-                <li>TableMachining</li>
-            </recipeUsers>
-            <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -829,7 +827,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
@@ -919,7 +917,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
@@ -993,7 +991,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
@@ -1093,7 +1091,7 @@
         <generateCommonality>0.1</generateCommonality>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleHeavyWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
@@ -1198,10 +1196,7 @@
             <ComponentIndustrial>4</ComponentIndustrial>
         </costList>
         <recipeMaker>
-            <recipeUsers>
-                <li>TableMachining</li>
-            </recipeUsers>
-            <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -1289,10 +1284,7 @@
             <ComponentIndustrial>4</ComponentIndustrial>
         </costList>
         <recipeMaker>
-            <recipeUsers>
-                <li>TableMachining</li>
-            </recipeUsers>
-            <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleHeavyWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>

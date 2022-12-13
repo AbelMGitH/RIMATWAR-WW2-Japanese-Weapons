@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>HRK_Research_SimpleOptics</defName>
+        <label>simple optics</label>
+        <description>Build basic, somewhat precise scoped and sniper rifles at a smithy or machining table.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>HRK_Research_SimpleAutomaticDesigns</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>0</researchViewY>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>HRK_Research_SimpleHeavyWeapons</defName>
+        <label>simple heavy weapons</label>
+        <description>Build basic, heavy duty weapons like rocket launchers or anti-material rifles at a smithy or machining table.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>HRK_Research_SimpleGunsmithing</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>1.40</researchViewY>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>HRK_Research_SimpleAutomaticDesigns</defName>
+        <label>simple automatic designs</label>
+        <description>Build basic, automatic firearms at a smithy or machining table.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>HRK_Research_SimpleGunsmithing</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>0</researchViewY>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>HRK_Research_SimpleGunsmithing</defName>
+        <label>simple gunsmithing</label>
+        <description>Build basic, repeating firearms at a smithy or machining table.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Smithing</li>
+        </prerequisites>
+        <researchViewX>1</researchViewX>
+        <researchViewY>0</researchViewY>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>HRK_Research_SimpleFuses</defName>
+        <label>simple fuses</label>
+        <description>Learn to make simple chemical and mechanical fuses for use in explosives. Allows the crafting of basic grenades, explosives and launchers at the smithing and machining table.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>HRK_Research_SimpleGunsmithing</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>0.70</researchViewY>
+        <tab>HRK_ResearchTab_Gunsmithing</tab>
+    </ResearchProjectDef>
+
+</Defs>

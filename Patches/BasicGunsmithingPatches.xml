@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]/prerequisites</xpath>
+        <value>
+            <prerequisites>
+                <li>HRK_Research_SimpleOptics</li>
+                <li>HRK_Research_SimpleHeavyWeapons</li>
+                <li>HRK_Research_SimpleFuses</li>
+                <li>Machining</li>
+            </prerequisites>
+        </value>
+    </Operation>
+
+</Patch>
