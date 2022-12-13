@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <RecipeDef ParentName="GrenadeRecipeBase">
+    <RecipeDef ParentName="GrenadeRecipeBase" Name="HRK_Japanese_GrenadeRecipeBase" Abstract="true">
+        <recipeUsers>
+            <li>FueledSmithy</li>
+            <li>ElectricSmithy</li>
+            <li>TableMachining</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <RecipeDef ParentName="HRK_Japanese_GrenadeRecipeBase">
         <defName>HRK_RecipeDef_Type97Grenade</defName>
         <label>make Type 97 frag grenades x10</label>
         <description>Craft 10 Type 97 frag grenades.</description>
@@ -46,7 +54,7 @@
         </products>
     </RecipeDef>
 
-    <RecipeDef ParentName="GrenadeRecipeBase">
+    <RecipeDef ParentName="HRK_Japanese_GrenadeRecipeBase">
         <defName>HRK_RecipeDef_Type3Grenade</defName>
         <label>make Type 3 impact grenades x10</label>
         <description>Craft 10 Type 3 impact grenades.</description>
@@ -90,8 +98,8 @@
             <HRK_Type3Grenade>10</HRK_Type3Grenade>
         </products>
     </RecipeDef>
-    
-    <RecipeDef ParentName="GrenadeRecipeBase">
+
+    <RecipeDef ParentName="HRK_Japanese_GrenadeRecipeBase">
         <defName>HRK_RecipeDef_Type4Grenade</defName>
         <label>make Type 4 explosive charge x1</label>
         <description>Craft 10 Type 4 explosive charge.</description>
