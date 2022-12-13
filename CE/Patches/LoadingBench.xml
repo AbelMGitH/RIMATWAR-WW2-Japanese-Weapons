@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="AmmoBench"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>HRK_Research_SimpleGunsmithing</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+</Patch>
