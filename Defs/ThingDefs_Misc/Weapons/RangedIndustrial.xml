@@ -27,6 +27,7 @@
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type14Nambu</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconScale>1.5</uiIconScale>
         <soundInteract>Interact_Autopistol</soundInteract>
         <recipeMaker>
             <researchPrerequisite>HRK_Research_SimpleGunsmithing</researchPrerequisite>
@@ -113,6 +114,7 @@
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type26Revolver</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconScale>1.5</uiIconScale>
         <soundInteract>Interact_Revolver</soundInteract>
         <statBases>
             <WorkToMake>3500</WorkToMake>
@@ -200,6 +202,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
+        <uiIconScale>1.1</uiIconScale>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
             <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
