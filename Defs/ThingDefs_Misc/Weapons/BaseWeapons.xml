@@ -16,9 +16,6 @@
     </ThingDef>
 
     <ThingDef Name="HRK_RimAtWar_Japanese_BaseMakeableGrenade" ParentName="BaseMakeableGrenade" Abstract="True">
-        <thingCategories Inherit="False">
-            <li>HRK_Category_RimAtWarGrenades_Japan</li>
-        </thingCategories>
         <recipeMaker>
             <recipeUsers>
                 <li>FueledSmithy</li>
