@@ -6,7 +6,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[
                 defName = "HRK_Type14Nambu" or
-                defName = "HRK_Type14Nambu"
+                defName = "HRK_Type26Revolver"
                 ]/tools
         </xpath>
         <value>
@@ -189,7 +189,7 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>Snapshot</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
         <weaponTags>
             <li>CE_Sidearm</li>
@@ -233,7 +233,7 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>Snapshot</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
         <weaponTags>
             <li>CE_Sidearm</li>
@@ -279,7 +279,7 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>Snapshot</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
             <aimedBurstShotCount>3</aimedBurstShotCount>
         </FireModes>
         <weaponTags>
@@ -325,7 +325,7 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>Snapshot</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
             <aimedBurstShotCount>3</aimedBurstShotCount>
         </FireModes>
         <weaponTags>
@@ -371,7 +371,7 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>Snapshot</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
             <aimedBurstShotCount>3</aimedBurstShotCount>
         </FireModes>
         <weaponTags>
@@ -416,7 +416,7 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>AimedShot</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
         <weaponTags>
             <li>CE_AI_SR</li>
@@ -458,7 +458,7 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>AimedShot</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
         <weaponTags>
             <li>CE_AI_SR</li>
@@ -501,7 +501,7 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>AimedShot</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
         <weaponTags>
             <li>CE_AI_SR</li>
@@ -510,7 +510,91 @@
     </Operation>
 
     <!--===== Type 2 rifle grenade =====-->
-    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_Type99ArisakaGL</defName>
+                <statBases>
+                    <WorkToMake>10500</WorkToMake>
+                    <Mass>3.79</Mass>
+                    <Bulk>11.18</Bulk>
+                    <SwayFactor>1.50</SwayFactor>
+                    <ShotSpread>0.15</ShotSpread>
+                    <SightsEfficiency>1</SightsEfficiency>
+                    <RangedWeapon_Cooldown>1.22</RangedWeapon_Cooldown>
+                </statBases>
+                <costList>
+                    <WoodLog>10</WoodLog>
+                    <Steel>55</Steel>
+                    <ComponentIndustrial>1</ComponentIndustrial>
+                </costList>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_30mmType2Grenade_HE</defaultProjectile>
+                    <warmupTime>1.1</warmupTime>
+                    <range>35</range>
+                    <soundCast>Shot_AssaultRifle</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                    <recoilAmount>3.70</recoilAmount>
+                    <targetParams>
+                        <canTargetLocations>true</canTargetLocations>
+                    </targetParams>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>1</magazineSize>
+                    <reloadTime>3.5</reloadTime>
+                    <ammoSet>AmmoSet_30mmType2Grenade</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>SuppressFire</aiAimMode>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
+                </FireModes>
+                <weaponTags>
+                    <li>CE_AI_AOE</li>
+                </weaponTags>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="HRK_Type99ArisakaGL"]/comps</xpath>
+                <value>
+                    <li Class="CombatExtended.CompProperties_UnderBarrel">
+                        <propsUnderBarrel>
+                            <magazineSize>5</magazineSize>
+                            <reloadTime>4.3</reloadTime>
+                            <ammoSet>AmmoSet_77x58mmArisaka</ammoSet>
+                        </propsUnderBarrel>
+                        <verbPropsUnderBarrel>
+                            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                            <hasStandardCommand>True</hasStandardCommand>
+                            <defaultProjectile>Bullet_77x58mmArisaka_FMJ</defaultProjectile>
+                            <warmupTime>0.9</warmupTime>
+                            <range>59</range>
+                            <soundCast>Shot_AssaultRifle</soundCast>
+                            <soundCastTail>GunTail_Medium</soundCastTail>
+                            <muzzleFlashScale>9</muzzleFlashScale>
+                            <recoilAmount>2.19</recoilAmount>
+                        </verbPropsUnderBarrel>
+                        <propsFireModesUnderBarrel>
+                            <aiAimMode>AimedShot</aiAimMode>
+                            <aiUseBurstMode>FALSE</aiUseBurstMode>
+                        </propsFireModesUnderBarrel>
+                    </li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_Type99ArisakaGL"]/label</xpath>
+                <value>
+                    <label>Type 99 + Type 2 rifle GL</label>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+
+    <!--<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>HRK_Type99ArisakaGL</defName>
         <statBases>
             <WorkToMake>10500</WorkToMake>
@@ -547,12 +631,12 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>SuppressFire</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
         <weaponTags>
             <li>CE_AI_AOE</li>
         </weaponTags>
-    </Operation>
+    </Operation>-->
 
     <!--===== Type 11 LMG =====-->
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -591,7 +675,7 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>SuppressFire</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
             <aimedBurstShotCount>5</aimedBurstShotCount>
         </FireModes>
         <weaponTags>
@@ -638,7 +722,7 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>SuppressFire</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
             <aimedBurstShotCount>5</aimedBurstShotCount>
         </FireModes>
         <weaponTags>
@@ -685,7 +769,7 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>SuppressFire</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
             <aimedBurstShotCount>5</aimedBurstShotCount>
         </FireModes>
         <weaponTags>
@@ -731,7 +815,7 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>AimedShot</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
         <weaponTags>
             <li>CE_AI_SR</li>
@@ -771,15 +855,16 @@
         </Properties>
         <AmmoUser>
             <magazineSize>1</magazineSize>
-            <reloadTime>0.85</reloadTime>
+            <reloadTime>4</reloadTime>
             <ammoSet>AmmoSet_50mmType89Grenade</ammoSet>
         </AmmoUser>
         <FireModes>
             <aiAimMode>SuppressFire</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
         <weaponTags>
             <li>CE_AI_AOE</li>
+            <li>Bipod_Rifle</li>
         </weaponTags>
     </Operation>
 
@@ -819,7 +904,7 @@
         </AmmoUser>
         <FireModes>
             <aiAimMode>AimedShot</aiAimMode>
-            <aiUseBurstMode>False</aiUseBurstMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
         <weaponTags>
             <li>CE_AI_SR</li>
