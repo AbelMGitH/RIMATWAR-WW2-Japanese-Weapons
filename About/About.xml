@@ -42,5 +42,7 @@
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>imranfish.xmlextensions</li>
 		<li>CETeam.CombatExtendedArmory</li>
+		<li>PeteTimesSix.ResearchReinvented</li>
+		<li>PeteTimesSix.ResearchReinvented.SteppingStones</li>
 	</loadAfter>
 </ModMetaData>
