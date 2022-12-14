@@ -179,7 +179,7 @@
     <!-- ======================= [Type 1 Nambu SMG] ========================== -->
     <ThingDef ParentName="BaseBullet">
         <defName>HRK_Bullet_Type1NambuSMG</defName>
-        <label>Type 1 Nambu SMG bullet</label>
+        <label>Type 2 Nambu SMG bullet</label>
         <graphicData>
             <texPath>Things/Projectile/Bullet_Small</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -195,7 +195,7 @@
 
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type1NambuSMG</defName>
-        <label>Type 1 Nambu SMG</label>
+        <label>Type 2 Nambu SMG</label>
         <description>The Type 1 Nambu SMG is a pre World War II experimental submachine gun of Japanese origin chambered in the 8mm Nambu round. The Type 1 is a blowback-operated submachine gun that fires from a closed bolt.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type1NambuSMG</texPath>
@@ -618,7 +618,7 @@
     <!-- ======================= [Type 99 Arisaka Sniper] ========================== -->
     <ThingDef ParentName="BaseBullet">
         <defName>HRK_Bullet_Type99ArisakaSR</defName>
-        <label>Type 99 Arisaka sniper bullet</label>
+        <label>Type 99 sniper bullet</label>
         <graphicData>
             <texPath>Things/Projectile/Bullet_Big</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -634,7 +634,7 @@
 
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type99ArisakaSR</defName>
-        <label>Type 99 Arisaka sniper</label>
+        <label>Type 99 sniper</label>
         <description>The Type 99 sniper rifle is a Japanese sniper rifle used during the Second World War. It is a sniper version of the Type 99 rifle, chambered in the 7.7x58mm round.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99ArisakaSR</texPath>
@@ -1067,7 +1067,7 @@
     <!-- ======================= [Type 97 AT Rifle] ========================== -->
     <ThingDef ParentName="BaseBullet">
         <defName>HRK_Bullet_Type97ATRifle</defName>
-        <label>Type 97 anti-tank rifle bullet</label>
+        <label>Type 97 automatic cannon blast</label>
         <graphicData>
             <texPath>Things/Projectile/Bullet_Small</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -1083,7 +1083,7 @@
 
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type97ATRifle</defName>
-        <label>Type 97 anti-tank rifle</label>
+        <label>Type 97 automatic cannon</label>
         <description>The Type 97 automatic cannon is a 20-millimeter Japanese anti-tank rifle that began development in the 1930s. It was used by the Imperial Japanese Army during Pacific War. Ever-greater thicknesses of armour on tanks rendered the Type 97 obsolete by about 1942.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type97ATRifle</texPath>
@@ -1159,7 +1159,7 @@
     <!-- ======================= [Type 89 Grenade Discharger] ========================== -->
     <ThingDef ParentName="BaseBullet">
         <defName>HRK_Bullet_Type89GrenadeDischarger</defName>
-        <label>Type 89 grenade discharger grenade</label>
+        <label>Type 89 grenade</label>
         <graphicData>
             <texPath>Things/Projectile/Rocket_Big</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -1267,7 +1267,7 @@
 
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type470mmRL</defName>
-        <label>Type 4 74mm Rocket Launcher</label>
+        <label>Type 4 rocket launcher</label>
         <description>The Type 4 74mm is a Japanese rocket launcher used during the last year of World War II. It is comparable to the German panzerschreck and the American bazooka.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type470mmRL</texPath>
