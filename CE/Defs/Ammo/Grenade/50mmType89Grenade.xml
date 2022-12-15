@@ -148,6 +148,7 @@
             <damageAmountBase>26</damageAmountBase>
             <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
             <explosionDelay>60</explosionDelay>
+            <soundExplode>HRK_Explosion_FragGrenade</soundExplode>
         </projectile>
         <comps>
             <li Class="CombatExtended.CompProperties_Fragments">
@@ -171,6 +172,7 @@
             <damageAmountBase>20</damageAmountBase>
             <postExplosionSpawnThingDef>HRK_Filth_WhitePhosporus</postExplosionSpawnThingDef>
             <postExplosionSpawnChance>1</postExplosionSpawnChance>
+            <soundExplode>HRK_Explosion_WhitePhosphorusGrenade</soundExplode>
         </projectile>
     </ThingDef>
 

@@ -28,7 +28,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <uiIconScale>1.5</uiIconScale>
-        <soundInteract>Interact_Autopistol</soundInteract>
+        <soundInteract>HRK_Interact_Type14Nambu</soundInteract>
         <recipeMaker>
             <researchPrerequisite>HRK_Research_SimpleGunsmithing</researchPrerequisite>
             <skillRequirements>
@@ -56,7 +56,7 @@
                 <defaultProjectile>HRK_Bullet_Type14Nambu</defaultProjectile>
                 <warmupTime>0.2</warmupTime>
                 <range>24</range>
-                <soundCast>Shot_Autopistol</soundCast>
+                <soundCast>HRK_Shot_Type14Nambu</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -143,7 +143,7 @@
                 <defaultProjectile>HRK_Bullet_Type26Revolver</defaultProjectile>
                 <warmupTime>0.3</warmupTime>
                 <range>28</range>
-                <soundCast>Shot_Revolver</soundCast>
+                <soundCast>HRK_Shot_Type26Revolver</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -233,7 +233,7 @@
                 <range>18</range>
                 <burstShotCount>6</burstShotCount>
                 <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-                <soundCast>Shot_HeavySMG</soundCast>
+                <soundCast>HRK_Shot_Type1NambuSMG</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -324,7 +324,7 @@
                 <range>20</range>
                 <burstShotCount>6</burstShotCount>
                 <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-                <soundCast>Shot_HeavySMG</soundCast>
+                <soundCast>HRK_Shot_Type100SMG</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -399,7 +399,7 @@
                 <range>20</range>
                 <burstShotCount>6</burstShotCount>
                 <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-                <soundCast>Shot_HeavySMG</soundCast>
+                <soundCast>HRK_Shot_Type100SMG</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -468,7 +468,7 @@
             <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
-        <soundInteract>Interact_Rifle</soundInteract>
+        <soundInteract>HRK_Interact_Type99Rifle</soundInteract>
         <statBases>
             <WorkToMake>12000</WorkToMake>
             <Mass>3.5</Mass>
@@ -496,7 +496,7 @@
                 <defaultProjectile>HRK_Bullet_Type99Arisaka</defaultProjectile>
                 <warmupTime>1.7</warmupTime>
                 <range>36.9</range>
-                <soundCast>Shot_BoltActionRifle</soundCast>
+                <soundCast>HRK_Shot_Type99Rifle</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -539,7 +539,7 @@
             <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
-        <soundInteract>Interact_Rifle</soundInteract>
+        <soundInteract>HRK_Interact_Type99Rifle</soundInteract>
         <statBases>
             <WorkToMake>14000</WorkToMake>
             <Mass>3.5</Mass>
@@ -567,7 +567,7 @@
                 <defaultProjectile>HRK_Bullet_Type99Arisaka</defaultProjectile>
                 <warmupTime>1.7</warmupTime>
                 <range>36.9</range>
-                <soundCast>Shot_BoltActionRifle</soundCast>
+                <soundCast>HRK_Shot_Type99Rifle</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -642,7 +642,7 @@
             <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
-        <soundInteract>Interact_Rifle</soundInteract>
+        <soundInteract>HRK_Interact_Type99Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisite>HRK_Research_SimpleOptics</researchPrerequisite>
             <skillRequirements>
@@ -671,7 +671,7 @@
                 <defaultProjectile>HRK_Bullet_Type99ArisakaSR</defaultProjectile>
                 <warmupTime>3.6</warmupTime>
                 <range>43</range>
-                <soundCast>Shot_SniperRifle</soundCast>
+                <soundCast>HRK_Shot_Type99Rifle</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -736,7 +736,7 @@
             <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
-        <soundInteract>Interact_Rifle</soundInteract>
+        <soundInteract>HRK_Interact_Type99Rifle</soundInteract>
         <generateCommonality>0.3</generateCommonality>
         <statBases>
             <WorkToMake>9000</WorkToMake>
@@ -765,7 +765,7 @@
                 <range>24</range>
                 <forcedMissRadius>1.9</forcedMissRadius>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>Shot_Autopistol</soundCast>
+                <soundCast>HRK_Shot_Type2RifleGrenade</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>14</muzzleFlashScale>
                 <targetParams>
@@ -828,7 +828,7 @@
             <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
-        <soundInteract>Interact_Rifle</soundInteract>
+        <soundInteract>HRK_Interact_Type11LMG</soundInteract>
         <recipeMaker>
             <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
             <skillRequirements>
@@ -859,7 +859,7 @@
                 <range>29</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <burstShotCount>3</burstShotCount>
-                <soundCast>Shot_Minigun</soundCast>
+                <soundCast>HRK_Shot_Type11LMG</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -918,7 +918,7 @@
             <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
-        <soundInteract>Interact_Rifle</soundInteract>
+        <soundInteract>HRK_Interact_Type99LMG</soundInteract>
         <recipeMaker>
             <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
             <skillRequirements>
@@ -949,7 +949,7 @@
                 <range>28</range>
                 <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                 <burstShotCount>5</burstShotCount>
-                <soundCast>Shot_Minigun</soundCast>
+                <soundCast>HRK_Shot_Type99LMG</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -992,7 +992,7 @@
             <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
-        <soundInteract>Interact_Rifle</soundInteract>
+        <soundInteract>HRK_Interact_Type99LMG</soundInteract>
         <recipeMaker>
             <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
             <skillRequirements>
@@ -1023,7 +1023,7 @@
                 <range>28</range>
                 <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                 <burstShotCount>5</burstShotCount>
-                <soundCast>Shot_Minigun</soundCast>
+                <soundCast>HRK_Shot_Type99LMG</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -1092,7 +1092,7 @@
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <generateCommonality>0.1</generateCommonality>
-        <soundInteract>Interact_Rifle</soundInteract>
+        <soundInteract>HRK_Interact_Type99Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisite>HRK_Research_SimpleHeavyWeapons</researchPrerequisite>
             <skillRequirements>
@@ -1120,7 +1120,7 @@
                 <defaultProjectile>HRK_Bullet_Type97ATRifle</defaultProjectile>
                 <warmupTime>2.1</warmupTime>
                 <range>30</range>
-                <soundCast>Shot_Minigun</soundCast>
+                <soundCast>HRK_Shot_Type97ATRifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -1186,7 +1186,7 @@
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type89GrenadeDischarger</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
+        <soundInteract>HRK_Interact_Type2RifleGrenade</soundInteract>
         <equippedAngleOffset>-30</equippedAngleOffset>
         <generateCommonality>0.3</generateCommonality>
         <statBases>
@@ -1215,7 +1215,7 @@
                 <range>18</range>
                 <forcedMissRadius>2.9</forcedMissRadius>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>Shot_HeavySMG</soundCast>
+                <soundCast>HRK_Shot_Type89GrenadeDischarger</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>14</muzzleFlashScale>
                 <targetParams>
@@ -1275,7 +1275,7 @@
             <drawSize>1.2</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
-        <soundInteract>Interact_Rifle</soundInteract>
+        <soundInteract>HRK_Interact_Type470mmRL</soundInteract>
         <generateCommonality>0.2</generateCommonality>
         <statBases>
             <WorkToMake>15000</WorkToMake>
@@ -1303,7 +1303,7 @@
                 <range>33</range>
                 <forcedMissRadius>2.9</forcedMissRadius>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCast>HRK_Shot_Type470mmRL</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>14</muzzleFlashScale>
                 <targetParams>

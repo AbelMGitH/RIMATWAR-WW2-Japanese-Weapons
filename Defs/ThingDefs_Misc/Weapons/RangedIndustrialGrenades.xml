@@ -16,6 +16,7 @@
             <damageDef>Bomb</damageDef>
             <!-- Use default damage from explosion def -->
             <explosionDelay>100</explosionDelay>
+            <soundExplode>HRK_Explosion_FragGrenade</soundExplode>
         </projectile>
     </ThingDef>
 
@@ -92,6 +93,7 @@
             <shadowSize>0.6</shadowSize>
             <screenShakeFactor>0.5</screenShakeFactor>
             <explosionDelay>0</explosionDelay>
+            <soundExplode>HRK_Explosion_WhitePhosphorusGrenade</soundExplode>
         </projectile>
     </ThingDef>
 
@@ -166,6 +168,7 @@
             <!-- Use default damage from explosion def -->
             <!--<explosionDelay>100</explosionDelay>-->
             <explosionDelay>0</explosionDelay>
+            <soundExplode>HRK_Explosion_FragGrenade</soundExplode>
         </projectile>
     </ThingDef>
 

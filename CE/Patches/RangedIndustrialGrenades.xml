@@ -56,6 +56,7 @@
                     <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
                     <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
                     <speed>10</speed>
+                    <soundExplode>HRK_Explosion_FragGrenade</soundExplode>
                 </projectile>
                 <comps>
                     <li Class="CombatExtended.CompProperties_Fragments">
@@ -182,6 +183,7 @@
                     <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
                     <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
                     <speed>10</speed>
+                    <soundExplode>HRK_Explosion_FragGrenade</soundExplode>
                 </projectile>
                 <comps>
                     <li Class="CombatExtended.CompProperties_Fragments">
@@ -307,7 +309,7 @@
                     <dropsCasings>true</dropsCasings>
                     <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
                     <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-                    <speed>10</speed>
+                    <speed>10</speed>                    
                 </projectile>
             </ThingDef>
         </value>
