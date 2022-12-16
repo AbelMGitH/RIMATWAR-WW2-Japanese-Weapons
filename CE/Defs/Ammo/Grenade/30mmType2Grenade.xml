@@ -33,8 +33,6 @@
         <tradeTags>
             <li>CE_AutoEnableTrade</li>
             <li>CE_AutoEnableCrafting_TableMachining</li>
-            <li>CE_AutoEnableCrafting_FueledSmithy</li>
-            <li>CE_AutoEnableCrafting_ElectricSmithy</li>
         </tradeTags>
         <thingCategories>
             <li>Ammo30mmType2Grenades</li>
@@ -212,7 +210,6 @@
         <label>make 30mm Type 2 HEAT grenades x100</label>
         <description>Craft 100 30mm Type 2 HEAT grenades.</description>
         <jobString>Making 30mm Type 2 HEAT grenades.</jobString>
-        <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>
@@ -257,7 +254,6 @@
         <label>make 30mm Type 2 HE grenades x100</label>
         <description>Craft 100 30mm Type 2 HE grenades.</description>
         <jobString>Making 30mm Type 2 HE grenades.</jobString>
-        <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>
@@ -302,7 +298,6 @@
         <label>make 30mm Type 2 frag grenades x100</label>
         <description>Craft 100 30mm Type 2 frag grenades.</description>
         <jobString>Making 30mm Type 2 frag grenades.</jobString>
-        <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>
@@ -347,7 +342,6 @@
         <label>make 30mm Type 2 smoke grenades x100</label>
         <description>Craft 100 30mm Type 2 smoke grenades.</description>
         <jobString>Making 30mm Type 2 smoke grenades.</jobString>
-        <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>

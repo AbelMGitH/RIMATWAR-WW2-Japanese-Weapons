@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Combat Extended</li>
+        </mods>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+
+                <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWE">
+                    <xpath>Defs/ThingDef[defName="HRK_Type470mmRL"]/recipeMaker/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>VWE_HeavyWeapons</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWEG">
+                    <xpath>Defs/ThingDef[defName="HRK_Type3Grenade"]/graphicData/texPath</xpath>
+                    <value>
+                        <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type3GrenadesLoose</texPath>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWEG">
+                    <xpath>Defs/ThingDef[defName="HRK_Type89Grenade"]/graphicData/texPath</xpath>
+                    <value>
+                        <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type89GrenadesLoose</texPath>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VWEG">
+                    <xpath>Defs/ThingDef[defName="HRK_Type97Grenade"]/graphicData/texPath</xpath>
+                    <value>
+                        <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type97GrenadesLoose</texPath>
+                    </value>
+                </li>
+
+            </operations>
+        </nomatch>
+    </Operation>
+
+</Patch>        

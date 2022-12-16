@@ -5,25 +5,7 @@
     <ThingDef Name="HRK_RimAtWar_Japanese_BaseHumanMakeableGun" ParentName="BaseHumanMakeableGun" Abstract="True">
         <thingCategories Inherit="False">
             <li>HRK_Category_RimAtWarWeaponsRanged_Japan</li>
-        </thingCategories>
-        <recipeMaker>
-            <recipeUsers>
-                <li>FueledSmithy</li>
-                <li>ElectricSmithy</li>
-                <li>TableMachining</li>
-            </recipeUsers>
-        </recipeMaker>
-    </ThingDef>
-
-    <ThingDef Name="HRK_RimAtWar_Japanese_BaseMakeableGrenade" ParentName="BaseMakeableGrenade" Abstract="True">
-        <recipeMaker>
-            <recipeUsers>
-                <li>FueledSmithy</li>
-                <li>ElectricSmithy</li>
-                <li>TableMachining</li>
-            </recipeUsers>
-            <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
-        </recipeMaker>
-    </ThingDef>
+        </thingCategories>        
+    </ThingDef>   
 
 </Defs>

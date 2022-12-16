@@ -33,8 +33,6 @@
         <tradeTags>
             <li>CE_AutoEnableTrade</li>
             <li>CE_AutoEnableCrafting_TableMachining</li>
-            <li>CE_AutoEnableCrafting_FueledSmithy</li>
-            <li>CE_AutoEnableCrafting_ElectricSmithy</li>
         </tradeTags>
         <thingCategories>
             <li>Ammo50mmType89Grenades</li>
@@ -200,7 +198,6 @@
         <label>make 50mm Type 89 HE grenades x100</label>
         <description>Craft 100 50mm Type 89 HE grenades.</description>
         <jobString>Making 50mm Type 89 HE grenades.</jobString>
-        <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>
@@ -245,7 +242,6 @@
         <label>make 50mm Type 89 frag grenades x100</label>
         <description>Craft 100 50mm Type 89 frag grenades.</description>
         <jobString>Making 50mm Type 89 frag grenades.</jobString>
-        <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>
@@ -290,7 +286,6 @@
         <label>make 50mm Type 89 white phosphorus grenades x100</label>
         <description>Craft 100 50mm Type 89 white phosphorus grenades.</description>
         <jobString>Making 50mm Type 89 white phosphorus grenades.</jobString>
-        <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>
@@ -326,7 +321,6 @@
         <label>make 50mm Type 89 smoke grenades x100</label>
         <description>Craft 100 50mm Type 89 smoke grenades.</description>
         <jobString>Making 50mm Type 89 smoke grenades.</jobString>
-        <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>

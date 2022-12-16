@@ -20,10 +20,13 @@
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseMakeableGrenade">
+    <ThingDef ParentName="BaseMakeableGrenade">
         <defName>HRK_Type97Grenade</defName>
         <label>Type 97 frag grenades</label>
         <description>Old-school fragmentation grenades. The Type 97 hand grenade was the standard fragmentation hand grenade of the Imperial Japanese Army during World War II.</description>
+        <recipeMaker>
+            <researchPrerequisite>Machining</researchPrerequisite>
+        </recipeMaker>
         <relicChance>0</relicChance>
         <tickerType>Normal</tickerType>
         <thingCategories Inherit="False">
@@ -97,10 +100,13 @@
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseMakeableGrenade">
+    <ThingDef ParentName="BaseMakeableGrenade">
         <defName>HRK_Type89Grenade</defName>
         <label>Type 89 white phosphorus grenades</label>
         <description>This 50mm Type 89 grenade is filled with white phosphorus that ignites its surroundings upon impact. This grenade was designed to be used with a grenade discharger but can also be manually thrown.</description>
+        <recipeMaker>
+            <researchPrerequisite>Machining</researchPrerequisite>
+        </recipeMaker>
         <relicChance>0</relicChance>
         <tickerType>Normal</tickerType>
         <thingCategories Inherit="False">
@@ -172,10 +178,13 @@
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseMakeableGrenade">
+    <ThingDef ParentName="BaseMakeableGrenade">
         <defName>HRK_Type3Grenade</defName>
         <label>Type 3 impact grenades</label>
         <description>The Type 3 "anti-tank" hand grenade is a Japanese grenade produced from 1943 to 1945 during World War II.</description>
+        <recipeMaker>
+            <researchPrerequisite>Machining</researchPrerequisite>
+        </recipeMaker>
         <relicChance>0</relicChance>
         <tickerType>Normal</tickerType>
         <thingCategories Inherit="False">
@@ -245,10 +254,13 @@
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseMakeableGrenade">
+    <ThingDef ParentName="BaseMakeableGrenade">
         <defName>HRK_Type4Grenade</defName>
         <label>Type 4 explosive charge</label>
         <description>The Type 4 grenade or ceramic grenade was a "last-ditch" hand grenade developed by the Imperial Japanese Navy in the closing stages of World War II. This one has been filled with a lot of explosive and a long fuse to seve as a demolition charge.</description>
+        <recipeMaker>
+            <researchPrerequisite>Machining</researchPrerequisite>
+        </recipeMaker>
         <relicChance>0</relicChance>
         <tickerType>Normal</tickerType>
         <thingCategories Inherit="False">
