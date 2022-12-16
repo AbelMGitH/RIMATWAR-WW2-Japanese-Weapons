@@ -30,7 +30,7 @@
         <uiIconScale>1.5</uiIconScale>
         <soundInteract>HRK_Interact_Type14Nambu</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>HRK_Research_SimpleGunsmithing</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -205,7 +205,7 @@
         <uiIconScale>1.1</uiIconScale>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAssaultRifles</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -296,7 +296,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAssaultRifles</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
@@ -371,7 +371,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAssaultRifles</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
@@ -749,7 +749,11 @@
             <WoodLog>15</WoodLog>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
+            <researchPrerequisite Inherit="false"/>
+            <researchPrerequisites>
+                <li>HRK_Research_SimpleGunsmithing</li>
+                <li>HRK_Research_SimpleFuses</li>
+            </researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -830,7 +834,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>HRK_Interact_Type11LMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAssaultRifles</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
@@ -920,7 +924,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>HRK_Interact_Type99LMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAssaultRifles</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
@@ -994,7 +998,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>HRK_Interact_Type99LMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAssaultRifles</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
@@ -1094,7 +1098,7 @@
         <generateCommonality>0.1</generateCommonality>
         <soundInteract>HRK_Interact_Type99Rifle</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>HRK_Research_SimpleHeavyWeapons</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleAutomaticDesigns</researchPrerequisite>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
@@ -1287,7 +1291,7 @@
             <ComponentIndustrial>4</ComponentIndustrial>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>HRK_Research_SimpleHeavyWeapons</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_SimpleFuses</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>

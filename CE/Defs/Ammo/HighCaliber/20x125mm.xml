@@ -162,7 +162,6 @@
 		<label>make 20x125mm (AP) cartridge x200</label>
 		<description>Craft 200 20x125mm (AP) cartridges.</description>
 		<jobString>Making 20x125mm (AP) cartridges.</jobString>
-		<researchPrerequisite>HRK_Research_SimpleHeavyWeapons</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
@@ -189,7 +188,6 @@
 		<label>make 20x125mm (AP-I) cartridge x200</label>
 		<description>Craft 200 20x125mm (AP-I) cartridges.</description>
 		<jobString>Making 20x125mm (AP-I) cartridges.</jobString>
-		<researchPrerequisite>HRK_Research_SimpleHeavyWeapons</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
@@ -225,7 +223,6 @@
 		<label>make 20x125mm (AP-HE) cartridge x200</label>
 		<description>Craft 200 20x125mm (AP-HE) cartridges.</description>
 		<jobString>Making 20x125mm (AP-HE) cartridges.</jobString>
-		<researchPrerequisite>HRK_Research_SimpleHeavyWeapons</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
