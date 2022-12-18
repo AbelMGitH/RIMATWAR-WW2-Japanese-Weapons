@@ -9,7 +9,7 @@
                 ]/graphicData/texPath
         </xpath>
         <value>
-            <texPath>Things/Ammo/Rifle/Japan/StripperClip/AP</texPath>
+            <texPath>Things/Ammo/Japanese/StripperClip/AP</texPath>
         </value>
     </Operation>
 
@@ -20,7 +20,7 @@
                 ]/graphicData/texPath
         </xpath>
         <value>
-            <texPath>Things/Ammo/Rifle/Japan/StripperClip/FMJ</texPath>
+            <texPath>Things/Ammo/Japanese/StripperClip/FMJ</texPath>
         </value>
     </Operation>
 
@@ -31,7 +31,7 @@
                 ]/graphicData/texPath
         </xpath>
         <value>
-            <texPath>Things/Ammo/Rifle/Japan/StripperClip/HE</texPath>
+            <texPath>Things/Ammo/Japanese/StripperClip/HE</texPath>
         </value>
     </Operation>
 
@@ -42,7 +42,7 @@
                 ]/graphicData/texPath
         </xpath>
         <value>
-            <texPath>Things/Ammo/Rifle/Japan/StripperClip/HP</texPath>
+            <texPath>Things/Ammo/Japanese/StripperClip/HP</texPath>
         </value>
     </Operation>
 
@@ -53,7 +53,7 @@
                 ]/graphicData/texPath
         </xpath>
         <value>
-            <texPath>Things/Ammo/Rifle/Japan/StripperClip/Incendiary</texPath>
+            <texPath>Things/Ammo/Japanese/StripperClip/Incendiary</texPath>
         </value>
     </Operation>
 
@@ -64,7 +64,32 @@
                 ]/graphicData/texPath
         </xpath>
         <value>
-            <texPath>Things/Ammo/Rifle/Japan/StripperClip/Sabot</texPath>
+            <texPath>Things/Ammo/Japanese/StripperClip/Sabot</texPath>
+        </value>
+    </Operation>
+
+    <!--===== 8x22mmNambu =====-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Ammo_8x22mmNambu_AP"]/graphicData/texPath
+        </xpath>
+        <value>
+            <texPath>Things/Ammo/Japanese/SMG/AP</texPath>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Ammo_8x22mmNambu_FMJ"]/graphicData/texPath
+        </xpath>
+        <value>
+            <texPath>Things/Ammo/Japanese/SMG/FMJ</texPath>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Ammo_8x22mmNambu_HP"]/graphicData/texPath
+        </xpath>
+        <value>
+            <texPath>Things/Ammo/Japanese/SMG/HP</texPath>
         </value>
     </Operation>
 

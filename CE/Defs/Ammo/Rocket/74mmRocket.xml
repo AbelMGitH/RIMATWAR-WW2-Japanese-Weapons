@@ -5,7 +5,7 @@
         <defName>Ammo74mmRockets</defName>
         <label>74mm Rockets</label>
         <parent>AmmoRockets</parent>
-        <iconPath>UI/Icons/ThingCategories/CaliberRocket</iconPath>
+        <iconPath>Things/Ammo/Japanese/Rocket/74mmRocket/HEAT/HEAT_c</iconPath>
     </ThingCategoryDef>
 
     <!-- ==================== AmmoSet ========================== -->
@@ -41,7 +41,7 @@
         <defName>Ammo_74mmRocket_HEAT</defName>
         <label>74mm Rocket (HEAT)</label>
         <graphicData>
-            <texPath>Things/Ammo/Rocket/74mmRocket/HEAT</texPath>
+            <texPath>Things/Ammo/Japanese/Rocket/74mmRocket/HEAT</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>

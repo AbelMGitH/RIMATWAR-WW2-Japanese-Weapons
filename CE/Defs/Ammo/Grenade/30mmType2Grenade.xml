@@ -5,7 +5,7 @@
         <defName>Ammo30mmType2Grenades</defName>
         <label>30mm Type 2 Grenade</label>
         <parent>AmmoGrenades</parent>
-        <iconPath>UI/Icons/ThingCategories/CaliberGrenade</iconPath>
+        <iconPath>Things/Ammo/Japanese/GrenadeLauncher/30mm/HE/HE_c</iconPath>
     </ThingCategoryDef>
 
     <!-- ==================== AmmoSet ========================== -->
@@ -45,7 +45,7 @@
         <defName>Ammo_30mmType2Grenade_HEAT</defName>
         <label>30mm Type 2 grenade (HEAT)</label>
         <graphicData>
-            <texPath>Things/Ammo/GrenadeLauncher/Japan/30mm/HEAT</texPath>
+            <texPath>Things/Ammo/Japanese/GrenadeLauncher/30mm/HEAT</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -59,7 +59,7 @@
         <defName>Ammo_30mmType2Grenade_HE</defName>
         <label>30mm Type 2 grenade (HE)</label>
         <graphicData>
-            <texPath>Things/Ammo/GrenadeLauncher/Japan/30mm/HE</texPath>
+            <texPath>Things/Ammo/Japanese/GrenadeLauncher/30mm/HE</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -73,7 +73,7 @@
         <defName>Ammo_30mmType2Grenade_Frag</defName>
         <label>30mm Type 2 grenade (Frag)</label>
         <graphicData>
-            <texPath>Things/Ammo/GrenadeLauncher/Japan/30mm/Frag</texPath>
+            <texPath>Things/Ammo/Japanese/GrenadeLauncher/30mm/Frag</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -87,7 +87,7 @@
         <defName>Ammo_30mmType2Grenade_Smoke</defName>
         <label>30mm Type 2 grenade (Smoke)</label>
         <graphicData>
-            <texPath>Things/Ammo/GrenadeLauncher/Japan/30mm/SMK</texPath>
+            <texPath>Things/Ammo/Japanese/GrenadeLauncher/30mm/SMK</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>

@@ -5,7 +5,7 @@
 		<defName>Ammo20x125mm</defName>
 		<label>20x125mm</label>
 		<parent>AmmoHighCaliber</parent>
-		<iconPath>UI/Icons/ThingCategories/CaliberHighCaliber</iconPath>
+		<iconPath>Things/Ammo/Japanese/HighCaliber/FMJ/FMJ_c</iconPath>
 	</ThingCategoryDef>
 
 	<!-- ==================== AmmoSet ========================== -->
@@ -44,7 +44,7 @@
 		<defName>Ammo_20x125mm_AP</defName>
 		<label>20x125mm cartridge (AP)</label>
 		<graphicData>
-			<texPath>Things/Ammo/HighCaliber/AP</texPath>
+			<texPath>Things/Ammo/Japanese/HighCaliber/AP</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -58,7 +58,7 @@
 		<defName>Ammo_20x125mm_Incendiary</defName>
 		<label>20x125mm cartridge (AP-I)</label>
 		<graphicData>
-			<texPath>Things/Ammo/HighCaliber/Incendiary</texPath>
+			<texPath>Things/Ammo/Japanese/HighCaliber/Incendiary</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -72,7 +72,7 @@
 		<defName>Ammo_20x125mm_HE</defName>
 		<label>20x125mm cartridge (AP-HE)</label>
 		<graphicData>
-			<texPath>Things/Ammo/HighCaliber/HE</texPath>
+			<texPath>Things/Ammo/Japanese/HighCaliber/HE</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -86,7 +86,7 @@
 		<defName>Ammo_20x125mm_Sabot</defName>
 		<label>20x125mm cartridge (Sabot)</label>
 		<graphicData>
-			<texPath>Things/Ammo/HighCaliber/Sabot</texPath>
+			<texPath>Things/Ammo/Japanese/HighCaliber/Sabot</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>

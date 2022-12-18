@@ -81,7 +81,7 @@
         <xpath>Defs/ThingDef[defName="HRK_Type97Grenade"]/graphicData</xpath>
         <value>
             <graphicData>
-                <texPath>Things/Ammo/HandGrenades/HRK_Type97Grenade</texPath>
+                <texPath>Things/Ammo/Japanese/HandGrenades/HRK_Type97Grenade</texPath>
                 <graphicClass>Graphic_StackCount</graphicClass>
                 <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
             </graphicData>
@@ -208,7 +208,7 @@
         <xpath>Defs/ThingDef[defName="HRK_Type3Grenade"]/graphicData</xpath>
         <value>
             <graphicData>
-                <texPath>Things/Ammo/HandGrenades/HRK_Type3Grenade</texPath>
+                <texPath>Things/Ammo/Japanese/HandGrenades/HRK_Type3Grenade</texPath>
                 <graphicClass>Graphic_StackCount</graphicClass>
                 <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
             </graphicData>
@@ -309,7 +309,7 @@
                     <dropsCasings>true</dropsCasings>
                     <casingMoteDefname>Mote_GrenadePin</casingMoteDefname>
                     <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-                    <speed>10</speed>                    
+                    <speed>10</speed>
                 </projectile>
             </ThingDef>
         </value>
@@ -327,7 +327,7 @@
         <xpath>Defs/ThingDef[defName="HRK_Type4Grenade"]/graphicData</xpath>
         <value>
             <graphicData>
-                <texPath>Things/Ammo/HandGrenades/HRK_Type4Grenade</texPath>
+                <texPath>Things/Ammo/Japanese/HandGrenades/HRK_Type4Grenade</texPath>
                 <graphicClass>Graphic_StackCount</graphicClass>
                 <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
             </graphicData>
