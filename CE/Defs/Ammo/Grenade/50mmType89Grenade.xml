@@ -198,6 +198,7 @@
         <label>make 50mm Type 89 HE grenades x100</label>
         <description>Craft 100 50mm Type 89 HE grenades.</description>
         <jobString>Making 50mm Type 89 HE grenades.</jobString>
+        <researchPrerequisite>Machining</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>
@@ -242,6 +243,7 @@
         <label>make 50mm Type 89 frag grenades x100</label>
         <description>Craft 100 50mm Type 89 frag grenades.</description>
         <jobString>Making 50mm Type 89 frag grenades.</jobString>
+        <researchPrerequisite>Machining</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>
@@ -286,6 +288,7 @@
         <label>make 50mm Type 89 white phosphorus grenades x100</label>
         <description>Craft 100 50mm Type 89 white phosphorus grenades.</description>
         <jobString>Making 50mm Type 89 white phosphorus grenades.</jobString>
+        <researchPrerequisite>Machining</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>
@@ -321,6 +324,7 @@
         <label>make 50mm Type 89 smoke grenades x100</label>
         <description>Craft 100 50mm Type 89 smoke grenades.</description>
         <jobString>Making 50mm Type 89 smoke grenades.</jobString>
+        <researchPrerequisite>Machining</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>

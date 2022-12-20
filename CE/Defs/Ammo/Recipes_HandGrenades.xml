@@ -3,7 +3,7 @@
 
     <RecipeDef ParentName="GrenadeRecipeBase">
         <defName>HRK_RecipeDef_Type97Grenade</defName>
-        <label>make Type 97 frag grenades x10</label>
+        <label>make Type 97 frag grenade x10</label>
         <description>Craft 10 Type 97 frag grenades.</description>
         <jobString>Making Type 97 frag grenades.</jobString>
         <workAmount>3600</workAmount>
@@ -14,7 +14,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>8</count>
+                <count>7</count>
             </li>
             <li>
                 <filter>
@@ -47,18 +47,26 @@
 
     <RecipeDef ParentName="GrenadeRecipeBase">
         <defName>HRK_RecipeDef_Type3Grenade</defName>
-        <label>make Type 3 impact grenades x10</label>
-        <description>Craft 10 Type 3 impact grenades.</description>
-        <jobString>Making Type 3 impact grenades.</jobString>
-        <workAmount>3600</workAmount>
+        <label>make Type 3 anti-tank grenade x10</label>
+        <description>Craft 10 Type 3 anti-tank grenades.</description>
+        <jobString>Making Type 3 anti-tank grenades.</jobString>
+        <workAmount>4500</workAmount>
         <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Textiles</li>
+                    </categories>
+                </filter>
+                <count>10</count>
+            </li>
             <li>
                 <filter>
                     <thingDefs>
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>8</count>
+                <count>2</count>
             </li>
             <li>
                 <filter>
@@ -78,6 +86,9 @@
             </li>
         </ingredients>
         <fixedIngredientFilter>
+            <categories>
+                <li>Textiles</li>
+            </categories>
             <thingDefs>
                 <li>Steel</li>
                 <li>FSX</li>
@@ -85,24 +96,32 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <HRK_Type3Grenade>10</HRK_Type3Grenade>
+            <HRK_Type3GrenadeCE>10</HRK_Type3GrenadeCE>
         </products>
     </RecipeDef>
 
     <RecipeDef ParentName="GrenadeRecipeBase">
         <defName>HRK_RecipeDef_Type4Grenade</defName>
-        <label>make Type 4 explosive charge x1</label>
-        <description>Craft 10 Type 4 explosive charge.</description>
-        <jobString>Making Type 4 explosive charge.</jobString>
-        <workAmount>3600</workAmount>
+        <label>make Type 4 demolition charge x5</label>
+        <description>Craft 10 Type 4 demolition charges.</description>
+        <jobString>Making Type 4 demolition charges.</jobString>
+        <workAmount>4500</workAmount>
         <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>StoneBlocks</li>
+                    </categories>
+                </filter>
+                <count>15</count>
+            </li>
             <li>
                 <filter>
                     <thingDefs>
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>8</count>
+                <count>10</count>
             </li>
             <li>
                 <filter>
@@ -110,7 +129,7 @@
                         <li>FSX</li>
                     </thingDefs>
                 </filter>
-                <count>4</count>
+                <count>20</count>
             </li>
             <li>
                 <filter>
@@ -118,10 +137,13 @@
                         <li>ComponentIndustrial</li>
                     </thingDefs>
                 </filter>
-                <count>2</count>
+                <count>3</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
+            <categories>
+                <li>StoneBlocks</li>
+            </categories>
             <thingDefs>
                 <li>Steel</li>
                 <li>FSX</li>
@@ -129,7 +151,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <HRK_Type4Grenade>1</HRK_Type4Grenade>
+            <HRK_Type4Grenade>5</HRK_Type4Grenade>
         </products>
     </RecipeDef>
 

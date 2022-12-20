@@ -94,6 +94,7 @@
         <description>Craft 5 74mm HEAT rockets.</description>
         <jobString>Making 74mm HEAT rockets.</jobString>
         <workAmount>7900</workAmount>
+        <researchPrerequisite>Machining</researchPrerequisite>
         <ingredients>
             <li>
                 <filter>

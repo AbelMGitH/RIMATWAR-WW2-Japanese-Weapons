@@ -247,17 +247,17 @@
             <graphicClass>Graphic_Flicker</graphicClass>
         </graphicData>
         <projectile>
-            <explosionRadius>5.9</explosionRadius >
+            <explosionRadius>3.2</explosionRadius >
             <damageDef>Bomb</damageDef>
             <!-- Use default damage from explosion def -->
-            <explosionDelay>500</explosionDelay>
+            <explosionDelay>250</explosionDelay>
         </projectile>
     </ThingDef>
 
     <ThingDef ParentName="BaseMakeableGrenade">
         <defName>HRK_Type4Grenade</defName>
         <label>Type 4 explosive charge</label>
-        <description>The Type 4 grenade or ceramic grenade was a "last-ditch" hand grenade developed by the Imperial Japanese Navy in the closing stages of World War II. This one has been filled with a lot of explosive and a long fuse to seve as a demolition charge.</description>
+        <description>The Type 4 grenade or ceramic grenade was a "last-ditch" hand grenade developed by the Imperial Japanese Navy in the closing stages of World War II. \n\nThis one has been filled with a lot of explosive and a long fuse to seve as a demolition charge.</description>
         <recipeMaker>
             <researchPrerequisite>Machining</researchPrerequisite>
         </recipeMaker>
@@ -279,25 +279,23 @@
             <WorkToMake>3000</WorkToMake>
         </statBases>
         <costList>
-            <Steel>20</Steel>
-            <Chemfuel>80</Chemfuel>
+            <Steel>75</Steel>
+            <Chemfuel>130</Chemfuel>
         </costList>
-        <weaponTags>
-            <li>GrenadeDestructive</li>
+        <weaponTags Inherit="False">
         </weaponTags>
         <smeltable>true</smeltable>
         <verbs>
             <li>
                 <label>throw Type 4 explosive charge</label>
-                <verbClass>Verb_ShootOneUse</verbClass>
+                <verbClass>Verb_LaunchProjectile</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <range>4.5</range>
-                <forcedMissRadius>1.9</forcedMissRadius>
-                <warmupTime>1.5</warmupTime>
+                <range>5.2</range>
+                <forcedMissRadius>0.7</forcedMissRadius>
+                <warmupTime>2.8</warmupTime>
                 <noiseRadius>4</noiseRadius>
                 <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
                 <soundCast>ThrowGrenade</soundCast>
-                <onlyManualCast>true</onlyManualCast>
                 <targetParams>
                     <canTargetLocations>true</canTargetLocations>
                 </targetParams>
@@ -307,7 +305,7 @@
         </verbs>
         <comps>
             <li Class="CompProperties_Explosive">
-                <explosiveRadius>2.66</explosiveRadius>
+                <explosiveRadius>7.68</explosiveRadius>
                 <explosiveDamageType>Bomb</explosiveDamageType>
                 <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
             </li>

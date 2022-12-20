@@ -205,7 +205,7 @@
         <uiIconScale>1.1</uiIconScale>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -297,7 +297,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
@@ -373,7 +373,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
@@ -837,7 +837,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>HRK_Interact_Type11LMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
@@ -928,7 +928,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>HRK_Interact_Type99LMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
@@ -1003,7 +1003,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>HRK_Interact_Type99LMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
