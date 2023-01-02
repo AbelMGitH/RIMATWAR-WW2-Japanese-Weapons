@@ -179,7 +179,7 @@
     <!-- ======================= [Type 1 Nambu SMG] ========================== -->
     <ThingDef ParentName="BaseBullet">
         <defName>HRK_Bullet_Type1NambuSMG</defName>
-        <label>Type 2 Nambu SMG bullet</label>
+        <label>Type 1 Nambu SMG bullet</label>
         <graphicData>
             <texPath>Things/Projectile/Bullet_Small</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -195,13 +195,15 @@
 
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type1NambuSMG</defName>
-        <label>Type 2 Nambu SMG</label>
+        <label>Type 1 Nambu SMG</label>
         <description>The Type 1 Nambu SMG is a pre World War II experimental submachine gun of Japanese origin chambered in the 8mm Nambu round. The Type 1 is a blowback-operated submachine gun that fires from a closed bolt.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type1NambuSMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1.0</drawSize>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_Type1NambuSMG</uiIconPath>
+        <equippedAngleOffset>45</equippedAngleOffset>
         <uiIconScale>1.1</uiIconScale>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
@@ -252,6 +254,91 @@
                 <capacities>
                     <li>Blunt</li>
                     <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <weaponClasses>
+            <li>ShortShots</li>
+            <li>RangedLight</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>SimpleGun</li>
+            <li>ShortShots</li>
+        </weaponTags>
+    </ThingDef>
+
+    <!-- ======================= [Type 1 Nambu SMG + Bayonet] ========================== -->
+    <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
+        <defName>HRK_Type1NambuSMGB</defName>
+        <label>Type 1 Nambu SMG</label>
+        <description>The Type 1 Nambu SMG is a pre World War II experimental submachine gun of Japanese origin chambered in the 8mm Nambu round. The Type 1 is a blowback-operated submachine gun that fires from a closed bolt. \n\nThis weapon comes with a bayonet attached, allowing for its use in melee combat.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type1NambuSMGB</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <uiIconPath>UI/Weapons/HRK_Type1NambuSMGB</uiIconPath>
+        <equippedAngleOffset>45</equippedAngleOffset>
+        <uiIconScale>1.1</uiIconScale>
+        <soundInteract>Interact_SMG</soundInteract>
+        <recipeMaker>
+            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>12000</WorkToMake>
+            <Mass>2.7</Mass>
+            <AccuracyTouch>0.80</AccuracyTouch>
+            <AccuracyShort>0.60</AccuracyShort>
+            <AccuracyMedium>0.30</AccuracyMedium>
+            <AccuracyLong>0.10</AccuracyLong>
+            <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>            <!-- Knife is 30 steel + 1800 Work, doing +20 steel and +2000 work atm -->
+            <Steel>60</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+            <WoodLog>10</WoodLog>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>HRK_Bullet_Type1NambuSMG</defaultProjectile>
+                <warmupTime>0.5</warmupTime>
+                <range>18</range>
+                <burstShotCount>6</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <soundCast>HRK_Shot_Type1NambuSMG</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>bayonet edge</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>1.5</cooldownTime>
+            </li>
+            <li>
+                <label>bayonet point</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>23</power>
+                <armorPenetration>0.50</armorPenetration>
+                <cooldownTime>2.6</cooldownTime>
+            </li>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
                 </capacities>
                 <power>9</power>
                 <cooldownTime>2</cooldownTime>
@@ -443,6 +530,108 @@
         </weaponTags>
     </ThingDef>
 
+    <!-- ======================= [Type 44 Carbine] ========================== -->
+    <ThingDef ParentName="BaseBullet">
+        <defName>HRK_Bullet_Type44Carbine</defName>
+        <label>Type 44 carbine bullet</label>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>18</damageAmountBase>
+            <armorPenetrationBase>0.27</armorPenetrationBase>
+            <stoppingPower>1.5</stoppingPower>
+            <speed>70</speed>
+        </projectile>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_big</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
+        <defName>HRK_Type44Carbine</defName>
+        <label>Type 44 carbine</label>
+        <description>The Type 44 carbine was developed from the Type 38 carbine to provide a cavalryman a carbine with a bayonet. \n\nThis weapon comes with a foldable bayonet, allowing for its use in melee combat.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type44Carbine</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.4</drawSize>
+        </graphicData>
+        <soundInteract>HRK_Interact_Type99Rifle</soundInteract>
+        <statBases>
+            <WorkToMake>12000</WorkToMake>
+            <Mass>3.5</Mass>
+            <AccuracyTouch>0.65</AccuracyTouch>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.90</AccuracyMedium>
+            <AccuracyLong>0.80</AccuracyLong>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>60</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+            <WoodLog>10</WoodLog>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisite>Gunsmithing</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>HRK_Bullet_Type44Carbine</defaultProjectile>
+                <warmupTime>1.7</warmupTime>
+                <range>36.9</range>
+                <soundCast>HRK_Shot_Type99Rifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>bayonet edge</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>1.5</cooldownTime>
+            </li>
+            <li>
+                <label>bayonet point</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>23</power>
+                <armorPenetration>0.50</armorPenetration>
+                <cooldownTime>2.6</cooldownTime>
+            </li>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <weaponClasses>
+            <li>LongShots</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>SimpleGun</li>
+        </weaponTags>
+    </ThingDef>
+
     <!-- ======================= [Type 99 Arisaka] ========================== -->
     <ThingDef ParentName="BaseBullet">
         <defName>HRK_Bullet_Type99Arisaka</defName>
@@ -467,7 +656,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99Arisaka</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.1</drawSize>
+            <drawSize>1.4</drawSize>
         </graphicData>
         <uiIconPath>UI/Weapons/HRK_Type99Arisaka</uiIconPath>
         <equippedAngleOffset>45</equippedAngleOffset>
@@ -539,7 +728,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99ArisakaB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.1</drawSize>
+            <drawSize>1.4</drawSize>
         </graphicData>
         <uiIconPath>UI/Weapons/HRK_Type99ArisakaB</uiIconPath>
         <equippedAngleOffset>45</equippedAngleOffset>
@@ -626,6 +815,7 @@
         <graphicData>
             <texPath>Things/Projectile/Bullet_Big</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.4</drawSize>
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
@@ -738,7 +928,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99ArisakaGL</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.1</drawSize>
+            <drawSize>1.4</drawSize>
         </graphicData>
         <uiIconPath>UI/Weapons/HRK_Type99ArisakaGL</uiIconPath>
         <equippedAngleOffset>45</equippedAngleOffset>
@@ -831,7 +1021,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type11LMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.1</drawSize>
+            <drawSize>1.0</drawSize>
         </graphicData>
         <uiIconPath>UI/Weapons/HRK_Type11LMG</uiIconPath>
         <equippedAngleOffset>45</equippedAngleOffset>

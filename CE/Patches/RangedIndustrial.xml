@@ -4,10 +4,7 @@
 
     <!--===== TOOLS FOR THE EMPEROR =====-->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[
-                defName = "HRK_Type14Nambu" or
-                defName = "HRK_Type26Revolver"
-                ]/tools
+        <xpath>Defs/ThingDef[defName="HRK_Type14Nambu" or defName="HRK_Type26Revolver"]/tools
         </xpath>
         <value>
             <tools>
@@ -37,16 +34,7 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[
-                defName = "HRK_Type1NambuSMG" or
-                defName = "HRK_Type100SMG" or
-                defName = "HRK_Type11LMG" or
-                defName = "HRK_Type97ATRifle" or
-                defName = "HRK_Type99Arisaka" or
-                defName = "HRK_Type99ArisakaGL" or
-                defName = "HRK_Type99ArisakaSR" or
-                defName = "HRK_Type99LMG"
-                ]/tools
+        <xpath>Defs/ThingDef[defName="HRK_Type1NambuSMG" or defName="HRK_Type100SMG" or defName="HRK_Type11LMG" or defName="HRK_Type97ATRifle" or defName="HRK_Type99Arisaka" or defName="HRK_Type99ArisakaGL" or defName="HRK_Type99ArisakaSR" or defName="HRK_Type99LMG"]/tools
         </xpath>
         <value>
             <tools>
@@ -86,11 +74,7 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[                
-                defName = "HRK_Type100SMGB" or                
-                defName = "HRK_Type99ArisakaB" or                
-                defName = "HRK_Type99LMGB"
-                ]/tools
+        <xpath>Defs/ThingDef[defName="HRK_Type1NambuSMGB" or defName="HRK_Type100SMGB" or defName="HRK_Type99ArisakaB" or defName="HRK_Type99LMGB"]/tools
         </xpath>
         <value>
             <tools>
@@ -134,10 +118,51 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[
-                defName = "HRK_Type470mmRL" or
-                defName = "HRK_Type89GrenadeDischarger"
-                ]/tools
+        <xpath>Defs/ThingDef[defName="HRK_Type44Carbine"]/tools
+        </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>stock</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>8</power>
+                    <cooldownTime>1.55</cooldownTime>
+                    <chanceFactor>0.5</chanceFactor>
+                    <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>blade</label>
+                    <capacities>
+                        <li>Cut</li>
+                    </capacities>
+                    <power>10</power>
+                    <cooldownTime>1.18</cooldownTime>
+                    <chanceFactor>0.5</chanceFactor>
+                    <armorPenetrationBlunt>0.36</armorPenetrationBlunt>
+                    <armorPenetrationSharp>0.32</armorPenetrationSharp>
+                    <linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>point</label>
+                    <capacities>
+                        <li>Stab</li>
+                    </capacities>
+                    <power>18</power>
+                    <cooldownTime>1.19</cooldownTime>
+                    <chanceFactor>1.00</chanceFactor>
+                    <armorPenetrationBlunt>2.25</armorPenetrationBlunt>
+                    <armorPenetrationSharp>1.5</armorPenetrationSharp>
+                    <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="HRK_Type470mmRL" or defName="HRK_Type89GrenadeDischarger"]/tools
         </xpath>
         <value>
             <tools>
@@ -295,6 +320,53 @@
         </weaponTags>
     </Operation>
 
+    <!--===== Type 1 SMG B=====-->
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>HRK_Type1NambuSMGB</defName>
+        <statBases>
+            <WorkToMake>27500</WorkToMake>
+            <Mass>3.37</Mass>
+            <Bulk>9.96</Bulk>
+            <SwayFactor>1.33</SwayFactor>
+            <ShotSpread>0.13</ShotSpread>
+            <SightsEfficiency>1</SightsEfficiency>
+            <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <WoodLog>10</WoodLog>
+            <Steel>50</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>True</hasStandardCommand>
+            <defaultProjectile>Bullet_8x22mmNambu_FMJ</defaultProjectile>
+            <burstShotCount>6</burstShotCount>
+            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+            <warmupTime>0.6</warmupTime>
+            <range>20</range>
+            <soundCast>HRK_Shot_Type1NambuSMG</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+            <recoilAmount>1.08</recoilAmount>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>50</magazineSize>
+            <reloadTime>4</reloadTime>
+            <ammoSet>AmmoSet_8x22mmNambu</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aiAimMode>Snapshot</aiAimMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
+            <aimedBurstShotCount>3</aimedBurstShotCount>
+        </FireModes>
+        <weaponTags>
+            <li>CE_SMG</li>
+            <li>CE_AI_BROOM</li>
+            <li>NoSwitch</li>
+        </weaponTags>
+    </Operation>
+
     <!--===== Type 100 SMG =====-->
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>HRK_Type100SMG</defName>
@@ -384,6 +456,49 @@
         <weaponTags>
             <li>CE_SMG</li>
             <li>CE_AI_BROOM</li>
+            <li>NoSwitch</li>
+        </weaponTags>
+    </Operation>
+
+    <!--===== Type 44 Carbine =====-->
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>HRK_Type44Carbine</defName>
+        <statBases>
+            <WorkToMake>11000</WorkToMake>
+            <Mass>3.30</Mass>
+            <Bulk>9.66</Bulk>
+            <SwayFactor>1.30</SwayFactor>
+            <ShotSpread>0.07</ShotSpread>
+            <SightsEfficiency>1</SightsEfficiency>
+            <RangedWeapon_Cooldown>1.17</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <WoodLog>10</WoodLog>
+            <Steel>50</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <Properties>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>True</hasStandardCommand>
+            <defaultProjectile>Bullet_65x50mmSRArisaka_FMJ</defaultProjectile>
+            <warmupTime>0.7</warmupTime>
+            <range>48</range>
+            <soundCast>HRK_Shot_Type99Rifle</soundCast>
+            <soundCastTail>GunTail_Medium</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+            <recoilAmount>2.00</recoilAmount>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>5</magazineSize>
+            <reloadTime>4.3</reloadTime>
+            <ammoSet>AmmoSet_65x50mmSRArisaka</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aiAimMode>AimedShot</aiAimMode>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
+        </FireModes>
+        <weaponTags>
+            <li>CE_AI_SR</li>
             <li>NoSwitch</li>
         </weaponTags>
     </Operation>
@@ -593,50 +708,6 @@
 
         </operations>
     </Operation>
-
-    <!--<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
-        <defName>HRK_Type99ArisakaGL</defName>
-        <statBases>
-            <WorkToMake>10500</WorkToMake>
-            <Mass>3.79</Mass>
-            <Bulk>11.18</Bulk>
-            <SwayFactor>1.50</SwayFactor>
-            <ShotSpread>0.15</ShotSpread>
-            <SightsEfficiency>1</SightsEfficiency>
-            <RangedWeapon_Cooldown>1.22</RangedWeapon_Cooldown>
-        </statBases>
-        <costList>
-            <WoodLog>10</WoodLog>
-            <Steel>55</Steel>
-            <ComponentIndustrial>1</ComponentIndustrial>
-        </costList>
-        <Properties>
-            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-            <hasStandardCommand>True</hasStandardCommand>
-            <defaultProjectile>Bullet_30mmType2Grenade_HE</defaultProjectile>
-            <warmupTime>1.1</warmupTime>
-            <range>35</range>
-            <soundCast>Shot_AssaultRifle</soundCast>
-            <soundCastTail>GunTail_Medium</soundCastTail>
-            <muzzleFlashScale>9</muzzleFlashScale>
-            <recoilAmount>3.70</recoilAmount>
-            <targetParams>
-                <canTargetLocations>true</canTargetLocations>
-            </targetParams>
-        </Properties>
-        <AmmoUser>
-            <magazineSize>1</magazineSize>
-            <reloadTime>0.85</reloadTime>
-            <ammoSet>AmmoSet_30mmType2Grenade</ammoSet>
-        </AmmoUser>
-        <FireModes>
-            <aiAimMode>SuppressFire</aiAimMode>
-            <aiUseBurstMode>FALSE</aiUseBurstMode>
-        </FireModes>
-        <weaponTags>
-            <li>CE_AI_AOE</li>
-        </weaponTags>
-    </Operation>-->
 
     <!--===== Type 11 LMG =====-->
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
