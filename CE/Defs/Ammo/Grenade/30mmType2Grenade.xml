@@ -100,7 +100,7 @@
 
     <!-- ================== Projectiles ================== -->
 
-    <ThingDef Name="Base30mmType2GrenadeBullet" ParentName="BaseBullet" Abstract="true">
+    <ThingDef Name="Base30mmType2GrenadeBullet" ParentName="BaseBulletCE" Abstract="true">
         <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
         <graphicData>
             <texPath>Things/Projectile/LauncherShot/Japan/HE</texPath>

@@ -3,7 +3,7 @@
 <Defs>
 
     <!-- ========== Type 3 (anti-tank) ========== -->
-    <ThingDef ParentName="BaseBullet">
+    <ThingDef ParentName="BaseBulletCE">
         <defName>HRK_Proj_Type3GrenadeCE</defName>
         <label>Type 3 anti-tank grenade</label>
         <graphicData>

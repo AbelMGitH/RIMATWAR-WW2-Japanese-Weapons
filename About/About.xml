@@ -32,22 +32,9 @@
 		<li>VanillaExpanded.VWENL</li>
 		<li>VanillaExpanded.VWEMS</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
-		<li>VanillaExpanded.VWE</li>
-		<li>Samael.PCA</li>
-		<li>al9000.ceadvancedindustrial</li>
-		<li>Kriptoner.EX1</li>
-		<li>CE.Kirp.RUGuns</li>
-		<li>CE_2Bore</li>
-		<li>CE.BlackPowderRifle</li>
-		<li>CE_BlackPowderGuns_copy</li>
-		<li>CE_BlackPowderGuns</li>
-		<li>CETeam.CombatExtendedGuns</li>
-		<li>al9000.CEGunsButAK</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-		<li>imranfish.xmlextensions</li>
+		<li>VanillaExpanded.VWE</li>
+		<li>CETeam.CombatExtendedGuns</li>
 		<li>CETeam.CombatExtendedArmory</li>
-		<li>PeteTimesSix.ResearchReinvented</li>
-		<li>PeteTimesSix.ResearchReinvented.SteppingStones</li>
-		<li>al9000.AKbutRetexture</li>
 	</loadAfter>
 </ModMetaData>
