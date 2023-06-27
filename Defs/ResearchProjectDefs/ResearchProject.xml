@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>HRK_Research_BasicScopes</defName>
+        <label>basic scopes</label>
+        <description>Modify simple weapons with basic scopes from the early 20th-century.</description>
+        <baseCost>200</baseCost>
+        <prerequisites>
+            <li>Gunsmithing</li>
+        </prerequisites>
+        <techLevel>Industrial</techLevel>
+        <researchViewX>8.00</researchViewX>
+        <researchViewY>3.75</researchViewY>
+    </ResearchProjectDef>
+
+</Defs>

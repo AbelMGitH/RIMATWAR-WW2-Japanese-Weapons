@@ -839,11 +839,14 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>HRK_Interact_Type99Rifle</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>Gunsmithing</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_BasicScopes</researchPrerequisite>
+            <researchPrerequisites>
+                <li>HRK_Research_BasicScopes</li>
+                <li>Gunsmithing</li>
+            </researchPrerequisites>
             <skillRequirements>
-                <Crafting>7</Crafting>
+                <Crafting>6</Crafting>
             </skillRequirements>
-            <displayPriority>425</displayPriority>
         </recipeMaker>
         <statBases>
             <WorkToMake>40000</WorkToMake>
@@ -1031,7 +1034,6 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <displayPriority>445</displayPriority>
         </recipeMaker>
         <statBases>
             <WorkToMake>32000</WorkToMake>
@@ -1118,11 +1120,14 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>HRK_Interact_Type99LMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_BasicScopes</researchPrerequisite>
+            <researchPrerequisites>
+                <li>HRK_Research_BasicScopes</li>
+                <li>BlowbackOperation</li>
+            </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <displayPriority>445</displayPriority>
         </recipeMaker>
         <statBases>
             <WorkToMake>32000</WorkToMake>
@@ -1193,11 +1198,14 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>HRK_Interact_Type99LMG</soundInteract>
         <recipeMaker>
-            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+            <researchPrerequisite>HRK_Research_BasicScopes</researchPrerequisite>
+            <researchPrerequisites>
+                <li>HRK_Research_BasicScopes</li>
+                <li>BlowbackOperation</li>
+            </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <displayPriority>445</displayPriority>
         </recipeMaker>
         <statBases>
             <WorkToMake>34000</WorkToMake>
