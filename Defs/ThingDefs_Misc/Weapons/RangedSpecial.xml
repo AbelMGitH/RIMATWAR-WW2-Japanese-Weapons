@@ -29,7 +29,7 @@
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type93Flamethrower</defName>
         <label>Type 93 flamethrower</label>
-        <description>The Type 93 is a flamethrower used by the Imperial Japanese Army and Navy's SNLF during the Second Sino-Japanese War and World War II.</description>
+        <description>The Type 93 is a flamethrower used by the Imperial Japanese Army and Navy's SNLF during the Second Sino-Japanese War and World War II.\n\nThis weapon is someone WIP, in a future update you'll need to equip your pawn with a proper fuel backpack to be able to use it.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type93Flamethrower</texPath>
             <graphicClass>Graphic_Single</graphicClass>

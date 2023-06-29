@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <!--===== TOOLS FOR THE EMPEROR =====-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="HRK_Type93Flamethrower"]/tools
+        </xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>muzzle</label>
+                    <capacities>
+                        <li>Poke</li>
+                    </capacities>
+                    <power>2</power>
+                    <cooldownTime>1.54</cooldownTime>
+                    <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                    <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>HRK_Type93Flamethrower</defName>
+        <statBases>
+            <WorkToMake>25500</WorkToMake>
+            <Mass>15</Mass>
+            <Bulk>8</Bulk>
+            <SwayFactor>1.35</SwayFactor>
+            <ShotSpread>0.15</ShotSpread>
+            <SightsEfficiency>0.8</SightsEfficiency>
+            <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>70</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <Properties>
+            <recoilAmount>0.85</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>True</hasStandardCommand>
+            <defaultProjectile>Bullet_Flamethrower_Prometheum</defaultProjectile>
+            <burstShotCount>16</burstShotCount>
+            <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+            <warmupTime>1.1</warmupTime>
+            <range>14</range>
+            <minRange>4</minRange>
+            <soundCast>HRK_Shot_Type93Flamethrower</soundCast>
+            <muzzleFlashScale>0</muzzleFlashScale>
+            <targetParams>
+                <canTargetLocations>True</canTargetLocations>
+            </targetParams>
+        </Properties>
+        <AmmoUser>
+            <magazineSize>120</magazineSize>
+            <reloadTime>8</reloadTime>
+            <ammoSet>AmmoSet_Flamethrower</ammoSet>
+        </AmmoUser>
+        <FireModes>
+            <aiAimMode>SuppressFire</aiAimMode>
+            <aiUseBurstMode>True</aiUseBurstMode>
+            <aimedBurstShotCount>8</aimedBurstShotCount>
+        </FireModes>
+        <weaponTags>
+            <li>GunHeavy</li>
+        </weaponTags>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="HRK_Type93Flamethrower"]/description
+        </xpath>
+        <value>
+            <description>The Type 93 is a flamethrower used by the Imperial Japanese Army and Navy's SNLF during the Second Sino-Japanese War and World War II.\n\nThis weapon is someone WIP, in a future update you'll need to equip your pawn with a proper fuel backpack to be able to use it. For now it has incrased crafting costs, bulk, weight and ammo capacity so simulate the existance of said fuel pack.</description>
+        </value>
+    </Operation>
+
+</Patch>

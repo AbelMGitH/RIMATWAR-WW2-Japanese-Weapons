@@ -33,8 +33,9 @@
         </value>
     </Operation>
 
+    <!-- defName="HRK_Type1NambuSMG" or defName="HRK_Type100SMG" or defName="HRK_Type11LMG" or defName="HRK_Type97ATRifle" or defName="HRK_Type99Arisaka" or defName="HRK_Type99ArisakaGL" or defName="HRK_Type99ArisakaSR" or defName="HRK_Type99LMG" -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="HRK_Type1NambuSMG" or defName="HRK_Type100SMG" or defName="HRK_Type11LMG" or defName="HRK_Type97ATRifle" or defName="HRK_Type99Arisaka" or defName="HRK_Type99ArisakaGL" or defName="HRK_Type99ArisakaSR" or defName="HRK_Type99LMG"]/tools
+        <xpath>Defs/ThingDef[defName="HRK_Type11LMG" or defName="HRK_Type97ATRifle" or defName="HRK_Type99ArisakaGL" or defName="HRK_Type99ArisakaSR"]/tools
         </xpath>
         <value>
             <tools>
@@ -117,7 +118,7 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
+    <!--<Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="HRK_Type44Carbine"]/tools
         </xpath>
         <value>
@@ -159,7 +160,7 @@
                 </li>
             </tools>
         </value>
-    </Operation>
+    </Operation>-->
 
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="HRK_Type470mmRL" or defName="HRK_Type89GrenadeDischarger"]/tools
@@ -275,7 +276,7 @@
     </Operation>
 
     <!--===== Type 1 SMG =====-->
-    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+    <!--<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>HRK_Type1NambuSMG</defName>
         <statBases>
             <WorkToMake>27000</WorkToMake>
@@ -318,7 +319,7 @@
             <li>CE_SMG</li>
             <li>CE_AI_BROOM</li>
         </weaponTags>
-    </Operation>
+    </Operation>-->
 
     <!--===== Type 1 SMG B=====-->
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -368,7 +369,7 @@
     </Operation>
 
     <!--===== Type 100 SMG =====-->
-    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+    <!--<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>HRK_Type100SMG</defName>
         <statBases>
             <WorkToMake>27500</WorkToMake>
@@ -411,7 +412,7 @@
             <li>CE_SMG</li>
             <li>CE_AI_BROOM</li>
         </weaponTags>
-    </Operation>
+    </Operation>-->
 
     <!--===== Type 100 SMG B =====-->
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -461,7 +462,7 @@
     </Operation>
 
     <!--===== Type 44 Carbine =====-->
-    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+    <!--<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>HRK_Type44Carbine</defName>
         <statBases>
             <WorkToMake>11000</WorkToMake>
@@ -501,10 +502,10 @@
             <li>CE_AI_SR</li>
             <li>NoSwitch</li>
         </weaponTags>
-    </Operation>
+    </Operation>-->
 
     <!--===== Type 99 Arisaka =====-->
-    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+    <!--<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>HRK_Type99Arisaka</defName>
         <statBases>
             <WorkToMake>11500</WorkToMake>
@@ -543,7 +544,7 @@
         <weaponTags>
             <li>CE_AI_SR</li>
         </weaponTags>
-    </Operation>
+    </Operation>-->
 
     <!--===== Type 99 Arisaka B =====-->
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -761,7 +762,7 @@
     </Operation>
 
     <!--===== Type 99 LMG =====-->
-    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+    <!--<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>HRK_Type99LMG</defName>
         <statBases>
             <WorkToMake>35000</WorkToMake>
@@ -809,7 +810,7 @@
             <li>CE_AI_LMG</li>
             <li>Bipod_LMG</li>
         </weaponTags>
-    </Operation>
+    </Operation>-->
 
     <!--===== Type 99 LMG B =====-->
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -868,7 +869,7 @@
         <defName>HRK_Type97ATRifle</defName>
         <statBases>
             <WorkToMake>44500</WorkToMake>
-            <Mass>19.00</Mass> <!--===== Reduced from 52kg. Stats calculated with 52kg. Pawns have problems using weapons that are +20kg, even PA users. =====-->
+            <Mass>19.00</Mass>            <!--===== Reduced from 52kg. Stats calculated with 52kg. Pawns have problems using weapons that are +20kg, even PA users. =====-->
             <Bulk>22.90</Bulk>
             <SwayFactor>5.10</SwayFactor>
             <ShotSpread>0.01</ShotSpread>
