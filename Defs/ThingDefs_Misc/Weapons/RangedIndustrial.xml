@@ -907,7 +907,7 @@
         <defName>HRK_Bullet_Type99ArisakaGL</defName>
         <label>Type 2 rifle grenade</label>
         <graphicData>
-            <texPath>Things/Projectile/LauncherShot/Japan/Frag</texPath>
+            <texPath>Things/Projectile/HRK_Type97Grenade</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
@@ -1409,7 +1409,7 @@
             <speed>40</speed>
             <explosionRadius>1.9</explosionRadius>
             <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
-            <preExplosionSpawnChance>0.75</preExplosionSpawnChance>            
+            <preExplosionSpawnChance>0.75</preExplosionSpawnChance>
             <arcHeightFactor>0.55</arcHeightFactor>
             <shadowSize>0.6</shadowSize>
             <ai_IsIncendiary>true</ai_IsIncendiary>

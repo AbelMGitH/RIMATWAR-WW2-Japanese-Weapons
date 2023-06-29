@@ -75,7 +75,7 @@
                                 <soundCastTail>GunTail_Heavy</soundCastTail>
                                 <muzzleFlashScale>9</muzzleFlashScale>
                                 <commandIcon>UI/Gizmos/HRK_Gizmo_Type99Bullet</commandIcon>
-                                <label>Type 99 Arisaka</label>
+                                <label>Rifle</label>
                             </li>
                             <li>
                                 <verbClass>Verb_Shoot</verbClass>
@@ -94,7 +94,7 @@
                                     <canTargetLocations>true</canTargetLocations>
                                 </targetParams>
                                 <commandIcon>UI/Gizmos/HRK_Gizmo_Type2Grenade</commandIcon>
-                                <label>Type 2 Grenade</label>
+                                <label>Grenade</label>
                             </li>
                         </verbs>
                     </value>
