@@ -4,8 +4,7 @@
 
     <!--===== TOOLS FOR THE EMPEROR =====-->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="HRK_Type93Flamethrower"]/tools
-        </xpath>
+        <xpath>Defs/ThingDef[defName="HRK_Type93Flamethrower"]/tools</xpath>
         <value>
             <tools>
                 <li Class="CombatExtended.ToolCE">
@@ -69,8 +68,7 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="HRK_Type93Flamethrower"]/description
-        </xpath>
+        <xpath>Defs/ThingDef[defName="HRK_Type93Flamethrower"]/description</xpath>
         <value>
             <description>The Type 93 is a flamethrower used by the Imperial Japanese Army and Navy's SNLF during the Second Sino-Japanese War and World War II.\n\nThis weapon is someone WIP, in a future update you'll need to equip your pawn with a proper fuel backpack to be able to use it. For now it has incrased crafting costs, bulk, weight and ammo capacity so simulate the existance of said fuel pack.</description>
         </value>
