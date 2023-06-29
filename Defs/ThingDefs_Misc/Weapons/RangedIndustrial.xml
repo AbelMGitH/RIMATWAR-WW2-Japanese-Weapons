@@ -1061,6 +1061,9 @@
                 <soundCast>HRK_Shot_Type11LMG</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
             </li>
         </verbs>
         <tools>
@@ -1155,6 +1158,9 @@
                 <soundCast>HRK_Shot_Type99LMG</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
             </li>
         </verbs>
         <tools>
@@ -1233,6 +1239,9 @@
                 <soundCast>HRK_Shot_Type99LMG</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
             </li>
         </verbs>
         <tools>

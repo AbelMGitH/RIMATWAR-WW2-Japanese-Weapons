@@ -738,6 +738,10 @@
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
             <recoilAmount>1.09</recoilAmount>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+            <recoilPattern>Mounted</recoilPattern>
         </Properties>
         <AmmoUser>
             <magazineSize>30</magazineSize>
@@ -785,6 +789,10 @@
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
             <recoilAmount>1.24</recoilAmount>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+            <recoilPattern>Mounted</recoilPattern>
         </Properties>
         <AmmoUser>
             <magazineSize>30</magazineSize>
@@ -832,6 +840,10 @@
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
             <recoilAmount>1.19</recoilAmount>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+            <recoilPattern>Mounted</recoilPattern>
         </Properties>
         <AmmoUser>
             <magazineSize>30</magazineSize>
