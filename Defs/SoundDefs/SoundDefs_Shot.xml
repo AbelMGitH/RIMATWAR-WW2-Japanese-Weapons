@@ -3,6 +3,27 @@
 <Defs>
 
     <SoundDef>
+        <defName>HRK_Shot_Type93Flamethrower</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Shot_Type93Flamethrower</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34</min>
+                    <max>40</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
         <defName>HRK_Shot_Type1NambuSMG</defName>
         <context>MapOnly</context>
         <eventNames/>
