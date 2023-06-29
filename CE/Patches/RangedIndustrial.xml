@@ -868,7 +868,7 @@
         <defName>HRK_Type97ATRifle</defName>
         <statBases>
             <WorkToMake>44500</WorkToMake>
-            <Mass>52.00</Mass>
+            <Mass>19.00</Mass> <!--===== Reduced from 52kg. Stats calculated with 52kg. Pawns have problems using weapons that are +20kg, even PA users. =====-->
             <Bulk>22.90</Bulk>
             <SwayFactor>5.10</SwayFactor>
             <ShotSpread>0.01</ShotSpread>
