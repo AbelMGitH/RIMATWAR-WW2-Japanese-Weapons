@@ -4,8 +4,8 @@
 
     <!-- ======================= [Type93Flamethrower] ========================== -->
     <ThingDef ParentName="BaseBullet">
-        <defName>HRK_Bullet_HRK_Type93Flamethrower</defName>
-        <label>HRK_Type93Flamethrower</label>
+        <defName>HRK_Bullet_Type93Flamethrower</defName>
+        <label>Type 93 flamethrower fuel</label>
         <graphicData>
             <texPath>Things/Projectile/HRK_Proj_Flamethrower</texPath>
             <graphicClass>Graphic_Flicker</graphicClass>
@@ -26,10 +26,10 @@
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type93Flamethrower</defName>
-        <label>HRK_Type93Flamethrower</label>
-        <description>Mechanical incendiary device designed to release a controllable stream of burning chemfuel.</description>
+        <label>Type 93 flamethrower</label>
+        <description>The Type 93 is a flamethrower used by the Imperial Japanese Army and Navy's SNLF during the Second Sino-Japanese War and World War II.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type93Flamethrower</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -56,11 +56,12 @@
             </recipeUsers>
             <researchPrerequisite>Gunsmithing</researchPrerequisite>
         </recipeMaker>
+        <relicChance>0</relicChance>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>HRK_Bullet_HRK_Type93Flamethrower</defaultProjectile>
+                <defaultProjectile>HRK_Bullet_Type93Flamethrower</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>9.9</range>
                 <forcedMissRadius>1.9</forcedMissRadius>

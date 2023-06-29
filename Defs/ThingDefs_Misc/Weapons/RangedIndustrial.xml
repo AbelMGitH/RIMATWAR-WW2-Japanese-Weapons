@@ -193,7 +193,7 @@
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
+    <!--<ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type1NambuSMG</defName>
         <label>Type 1 Nambu SMG</label>
         <description>The Type 1 Nambu SMG is a pre World War II experimental submachine gun of Japanese origin chambered in the 8mm Nambu round. The Type 1 is a blowback-operated submachine gun that fires from a closed bolt.</description>
@@ -267,7 +267,7 @@
             <li>SimpleGun</li>
             <li>ShortShots</li>
         </weaponTags>
-    </ThingDef>
+    </ThingDef>-->
 
     <!-- ======================= [Type 1 Nambu SMG + Bayonet] ========================== -->
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
@@ -371,7 +371,7 @@
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
+    <!--<ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type100SMG</defName>
         <label>Type 100 SMG</label>
         <description>The Type 100 SMG is a Japanese submachine gun used during World War II and the only submachine gun produced by Japan in any quantity.</description>
@@ -444,7 +444,7 @@
             <li>SimpleGun</li>
             <li>ShortShots</li>
         </weaponTags>
-    </ThingDef>
+    </ThingDef>-->
 
     <!-- ======================= [Type 100 SMG + Bayonet] ========================== -->
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
@@ -531,7 +531,7 @@
     </ThingDef>
 
     <!-- ======================= [Type 44 Carbine] ========================== -->
-    <ThingDef ParentName="BaseBullet">
+    <!--<ThingDef ParentName="BaseBullet">
         <defName>HRK_Bullet_Type44Carbine</defName>
         <label>Type 44 carbine bullet</label>
         <projectile>
@@ -554,8 +554,9 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type44Carbine</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.4</drawSize>
+            <drawSize>1.2</drawSize>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_Type44Carbine</uiIconPath>
         <soundInteract>HRK_Interact_Type99Rifle</soundInteract>
         <statBases>
             <WorkToMake>10000</WorkToMake>
@@ -630,7 +631,7 @@
         <weaponTags>
             <li>SimpleGun</li>
         </weaponTags>
-    </ThingDef>
+    </ThingDef>-->
 
     <!-- ======================= [Type 99 Arisaka] ========================== -->
     <ThingDef ParentName="BaseBullet">
@@ -649,14 +650,14 @@
         </graphicData>
     </ThingDef>
 
-    <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
+    <!--<ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type99Arisaka</defName>
         <label>Type 99 Arisaka rifle</label>
         <description>The Type 99 rifle was a frontline rifle developed around the mid-20th century to replace the less powerful Type 38.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99Arisaka</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.4</drawSize>
+            <drawSize>1.2</drawSize>
         </graphicData>
         <uiIconPath>UI/Weapons/HRK_Type99Arisaka</uiIconPath>
         <equippedAngleOffset>45</equippedAngleOffset>
@@ -718,7 +719,7 @@
         <weaponTags>
             <li>SimpleGun</li>
         </weaponTags>
-    </ThingDef>
+    </ThingDef>-->
 
     <!-- ======================= [Type 99 Arisaka + Bayonet] ========================== -->
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
@@ -728,7 +729,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99ArisakaB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.4</drawSize>
+            <drawSize>1.2</drawSize>
         </graphicData>
         <uiIconPath>UI/Weapons/HRK_Type99ArisakaB</uiIconPath>
         <equippedAngleOffset>45</equippedAngleOffset>
@@ -815,7 +816,6 @@
         <graphicData>
             <texPath>Things/Projectile/Bullet_Big</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.4</drawSize>
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
@@ -833,7 +833,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99ArisakaSR</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.1</drawSize>
+            <drawSize>1.2</drawSize>
         </graphicData>
         <uiIconPath>UI/Weapons/HRK_Type99ArisakaSR</uiIconPath>
         <equippedAngleOffset>45</equippedAngleOffset>
@@ -907,7 +907,7 @@
         <defName>HRK_Bullet_Type99ArisakaGL</defName>
         <label>Type 2 rifle grenade</label>
         <graphicData>
-            <texPath>Things/Projectile/Rocket_Big</texPath>
+            <texPath>Things/Projectile/LauncherShot/Japan/Frag</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
@@ -921,6 +921,7 @@
             <ai_IsIncendiary>false</ai_IsIncendiary>
             <arcHeightFactor>0.55</arcHeightFactor>
             <shadowSize>0.6</shadowSize>
+            <explosionDelay>100</explosionDelay>
         </projectile>
     </ThingDef>
 
@@ -931,7 +932,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type99ArisakaGL</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.4</drawSize>
+            <drawSize>1.2</drawSize>
         </graphicData>
         <uiIconPath>UI/Weapons/HRK_Type99ArisakaGL</uiIconPath>
         <equippedAngleOffset>45</equippedAngleOffset>
@@ -1110,7 +1111,7 @@
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
+    <!--<ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
         <defName>HRK_Type99LMG</defName>
         <label>Type 99 LMG</label>
         <description>The Type 99 LMG is a light machine gun used by the Imperial Japanese Army in World War II. It was similar in design to the earlier Type 96 light machine gun, but designed to fire the new and more powerful 7.7 mm Arisaka cartridge, which improved energy by over 50%. Like the Type 96, the Type 99 traces its history to the ZB vz. 26, which also inspired the British Bren light machine gun.</description>
@@ -1188,7 +1189,7 @@
         <weaponTags>
             <li>SimpleGun</li>
         </weaponTags>
-    </ThingDef>
+    </ThingDef>-->
 
     <!-- ======================= [Type 99 LMG + Bayonet] ========================== -->
     <ThingDef ParentName="HRK_RimAtWar_Japanese_BaseHumanMakeableGun">
@@ -1285,7 +1286,7 @@
         <defName>HRK_Bullet_Type97ATRifle</defName>
         <label>Type 97 automatic cannon blast</label>
         <graphicData>
-            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <texPath>Things/Projectile/Bullet_Big</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile>
@@ -1304,7 +1305,7 @@
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type97ATRifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.4</drawSize>
+            <drawSize>1.2</drawSize>
         </graphicData>
         <uiIconPath>UI/Weapons/HRK_Type97ATRifle</uiIconPath>
         <equippedAngleOffset>45</equippedAngleOffset>
@@ -1375,10 +1376,10 @@
 
     <!-- ======================= [Type 89 Grenade Discharger] ========================== -->
     <ThingDef ParentName="BaseBullet">
-        <defName>HRK_Bullet_Type89GrenadeDischarger</defName>
+        <defName>HRK_Bullet_Type89GrenadeDischarger_HE</defName>
         <label>Type 89 grenade</label>
         <graphicData>
-            <texPath>Things/Projectile/Rocket_Big</texPath>
+            <texPath>Things/Projectile/LauncherShot/Japan/HE</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
@@ -1392,6 +1393,45 @@
             <ai_IsIncendiary>false</ai_IsIncendiary>
             <arcHeightFactor>0.55</arcHeightFactor>
             <shadowSize>0.6</shadowSize>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>HRK_Bullet_Type89GrenadeDischarger_Incendiary</defName>
+        <label>Type 89 incendiary grenade</label>
+        <graphicData>
+            <texPath>Things/Projectile/LauncherShot/Japan/WhitePhosphorus</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <damageDef>Flame</damageDef>
+            <speed>40</speed>
+            <explosionRadius>1.9</explosionRadius>
+            <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+            <preExplosionSpawnChance>0.75</preExplosionSpawnChance>            
+            <arcHeightFactor>0.55</arcHeightFactor>
+            <shadowSize>0.6</shadowSize>
+            <ai_IsIncendiary>true</ai_IsIncendiary>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>HRK_Bullet_Type89GrenadeDischarger_SMK</defName>
+        <label>Type 89 smoke grenade</label>
+        <graphicData>
+            <texPath>Things/Projectile/LauncherShot/Japan/SMK</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <explosionRadius>1.9</explosionRadius>
+            <soundExplode>DispensePaste</soundExplode>
+            <damageDef>Smoke</damageDef>
+            <speed>40</speed>
+            <arcHeightFactor>0.55</arcHeightFactor>
+            <shadowSize>0.6</shadowSize>
+            <postExplosionGasType>BlindSmoke</postExplosionGasType>
         </projectile>
     </ThingDef>
 
@@ -1421,11 +1461,12 @@
                 <Crafting>4</Crafting>
             </skillRequirements>
         </recipeMaker>
+        <relicChance>0</relicChance>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>HRK_Bullet_Type89GrenadeDischarger</defaultProjectile>
+                <defaultProjectile>HRK_Bullet_Type89GrenadeDischarger_HE</defaultProjectile>
                 <warmupTime>2.5</warmupTime>
                 <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
                 <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
@@ -1469,8 +1510,8 @@
         <defName>HRK_Bullet_Type470mmRL</defName>
         <label>Type 4 rocket</label>
         <graphicData>
-            <texPath>Things/Projectile/Rocket_Big</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Projectile/HRK_Type470mmRL</texPath>
+            <graphicClass>Graphic_Flicker</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
@@ -1478,7 +1519,7 @@
             <damageDef>Bomb</damageDef>
             <!-- Use default damage from explosion def -->
             <explosionRadius>1.9</explosionRadius>
-            <speed>50</speed>
+            <speed>40</speed>
         </projectile>
     </ThingDef>
 
@@ -1510,6 +1551,7 @@
                 <Crafting>6</Crafting>
             </skillRequirements>
         </recipeMaker>
+        <relicChance>0</relicChance>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>

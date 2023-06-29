@@ -257,7 +257,7 @@
     <ThingDef ParentName="BaseMakeableGrenade">
         <defName>HRK_Type4Grenade</defName>
         <label>Type 4 explosive charge</label>
-        <description>The Type 4 grenade or ceramic grenade was a "last-ditch" hand grenade developed by the Imperial Japanese Navy in the closing stages of World War II. \n\nThis one has been filled with a lot of explosive and a long fuse to seve as a demolition charge.</description>
+        <description>The Type 4 grenade or ceramic grenade was a "last-ditch" hand grenade developed by the Imperial Japanese Navy in the closing stages of World War II. \n\nThis one has been filled with a lot of explosive and a long fuse to serve as a demolition charge. Suffers from reduced range due to weight.</description>
         <recipeMaker>
             <researchPrerequisite>Machining</researchPrerequisite>
         </recipeMaker>
@@ -290,7 +290,7 @@
                 <label>throw Type 4 explosive charge</label>
                 <verbClass>Verb_LaunchProjectile</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <range>5.2</range>
+                <range>3</range>
                 <forcedMissRadius>0.7</forcedMissRadius>
                 <warmupTime>2.8</warmupTime>
                 <noiseRadius>4</noiseRadius>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <MVCF.ModDef>
+        <defName>HarkonRIMATWARWW2JapaneseWeapons</defName>
+        <label>[HRK] RIM AT WAR - WW2 Japanese Weapons</label>
+        <description>[HRK] RIM AT WAR - WW2 Japanese Weapons</description>
+        <ActivateFeatures>
+            <li>ExtraEquipmentVerbs</li>
+            <li>IntegratedToggle</li>
+        </ActivateFeatures>
+    </MVCF.ModDef>
+
+</Defs>
