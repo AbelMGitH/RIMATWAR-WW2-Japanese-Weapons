@@ -886,7 +886,7 @@
             <hasStandardCommand>True</hasStandardCommand>
             <defaultProjectile>Bullet_20x125mm_HE</defaultProjectile>
             <warmupTime>2.8</warmupTime>
-            <range>86</range>
+            <range>9</range>
             <soundCast>HRK_Shot_Type97ATRifle</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
@@ -902,9 +902,15 @@
             <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
         <weaponTags>
-            <li>CE_AI_SR</li>
-            <li>Bipod_ATR</li>
+            <li>Bipod_Type97ATRifle</li>
         </weaponTags>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="HRK_Type97ATRifle"]/description</xpath>
+        <value>
+            <description>The Type 97 automatic cannon is a 20-millimeter Japanese anti-tank rifle that began development in the 1930s. It was used by the Imperial Japanese Army during Pacific War. Ever-greater thicknesses of armour on tanks rendered the Type 97 obsolete by about 1942. \n\nThe real weapon weights 52kg, to simulate the IRL usage of this weapon the weight has been reduced but you'll need to set up the bipod to properly use it otherwise, it will have no range.</description>
+        </value>
     </Operation>
 
     <!--===== Type 89 GL =====-->
