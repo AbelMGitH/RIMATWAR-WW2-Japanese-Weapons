@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Muzzle Flash</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HRK_Type14Nambu"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps">
+							<def>MF_StandardMuzzleFalsh</def>
+							<drawSize>(0.6,0.6)</drawSize>
+							<offsets>
+								<li>(0.3,0)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HRK_Type26Revolver"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps">
+							<def>MF_StandardMuzzleFalsh</def>
+							<drawSize>(0.6,0.6)</drawSize>
+							<offsets>
+								<li>(0.42,0)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HRK_Type1NambuSMGB"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps">
+							<def>MF_StandardMuzzleFalsh</def>
+							<drawSize>(0.4,0.4)</drawSize>
+							<offsets>
+								<li>(0.29,0.09)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HRK_Type100SMGB"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps">
+							<def>MF_StandardMuzzleFalsh</def>
+							<drawSize>(0.4,0.4)</drawSize>
+							<offsets>
+								<li>(0.4,0.05)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HRK_Type11LMG"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps">
+							<def>MF_StandardMuzzleFalsh</def>
+							<drawSize>(1,1)</drawSize>
+							<offsets>
+								<li>(0.65,0.05)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HRK_Type99LMGB"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps">
+							<def>MF_StandardMuzzleFalsh</def>
+							<drawSize>(1,1)</drawSize>
+							<offsets>
+								<li>(0.55,0.1)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HRK_Type99ArisakaB"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps">
+							<def>MF_StandardMuzzleFalsh</def>
+							<drawSize>(1.5,1)</drawSize>
+							<offsets>
+								<li>(0.51,0.1)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HRK_Type99ArisakaSR"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps">
+							<def>MF_StandardMuzzleFalsh</def>
+							<drawSize>(1.5,1)</drawSize>
+							<offsets>
+								<li>(0.51,0.1)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/ThingDef[defName="HRK_Type97ATRifle"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps">
+							<def>MF_StandardMuzzleFalsh</def>
+							<drawSize>(1.8,1.5)</drawSize>
+							<offsets>
+								<li>(0.7,0.03)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
