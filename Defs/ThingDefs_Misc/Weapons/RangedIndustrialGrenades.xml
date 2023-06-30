@@ -29,8 +29,9 @@
         </recipeMaker>
         <relicChance>0</relicChance>
         <tickerType>Normal</tickerType>
-        <thingCategories Inherit="False">
+        <thingCategories>
             <li>HRK_Category_RimAtWarGrenades_Japan</li>
+            <li>Grenades</li>
         </thingCategories>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type97GrenadeBelt</texPath>
@@ -109,8 +110,9 @@
         </recipeMaker>
         <relicChance>0</relicChance>
         <tickerType>Normal</tickerType>
-        <thingCategories Inherit="False">
+        <thingCategories>
             <li>HRK_Category_RimAtWarGrenades_Japan</li>
+            <li>Grenades</li>
         </thingCategories>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type89GrenadeBelt</texPath>
@@ -137,7 +139,7 @@
                 <label>throw Type 89 white phosphorus grenade</label>
                 <verbClass>Verb_LaunchProjectile</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <range>12.9</range>
+                <range>8.9</range>
                 <forcedMissRadius>1.9</forcedMissRadius>
                 <warmupTime>1.5</warmupTime>
                 <noiseRadius>4</noiseRadius>
@@ -187,8 +189,9 @@
         </recipeMaker>
         <relicChance>0</relicChance>
         <tickerType>Normal</tickerType>
-        <thingCategories Inherit="False">
+        <thingCategories>
             <li>HRK_Category_RimAtWarGrenades_Japan</li>
+            <li>Grenades</li>
         </thingCategories>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type3GrenadeBelt</texPath>
@@ -263,8 +266,9 @@
         </recipeMaker>
         <relicChance>0</relicChance>
         <tickerType>Normal</tickerType>
-        <thingCategories Inherit="False">
+        <thingCategories>
             <li>HRK_Category_RimAtWarGrenades_Japan</li>
+            <li>Grenades</li>
         </thingCategories>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HRK_Type4Grenade</texPath>

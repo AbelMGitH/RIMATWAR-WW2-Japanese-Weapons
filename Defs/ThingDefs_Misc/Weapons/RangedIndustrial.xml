@@ -1546,7 +1546,7 @@
             <ComponentIndustrial>4</ComponentIndustrial>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>Machining</researchPrerequisite>
+            <researchPrerequisite>Gunsmithing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
