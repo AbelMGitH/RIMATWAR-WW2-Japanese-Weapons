@@ -635,6 +635,7 @@
     <!--===== Type 2 rifle grenade =====-->
     <Operation Class="PatchOperationSequence">
         <operations>
+        
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>HRK_Type99ArisakaGL</defName>
                 <statBases>
