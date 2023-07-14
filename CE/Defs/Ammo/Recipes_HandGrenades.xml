@@ -103,7 +103,7 @@
     <RecipeDef ParentName="GrenadeRecipeBase">
         <defName>HRK_RecipeDef_Type4Grenade</defName>
         <label>make Type 4 demolition charge x5</label>
-        <description>Craft 10 Type 4 demolition charges.</description>
+        <description>Craft 5 Type 4 demolition charges.</description>
         <jobString>Making Type 4 demolition charges.</jobString>
         <workAmount>4500</workAmount>
         <ingredients>

@@ -1,4 +1,0 @@
-D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\RIMATWAR-WW2-Japanese-Weapons\Assemblies\HarkonRimAtWar.dll
-D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\RIMATWAR-WW2-Japanese-Weapons\Source\RimAtWar\obj\Debug\HarkonRimAtWar.csproj.AssemblyReference.cache
-D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\RIMATWAR-WW2-Japanese-Weapons\Source\RimAtWar\obj\Debug\HarkonRimAtWar.csproj.CoreCompileInputs.cache
-D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\RIMATWAR-WW2-Japanese-Weapons\Source\RimAtWar\obj\Debug\HarkonRimAtWar.dll
