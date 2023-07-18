@@ -870,7 +870,7 @@
         <defName>HRK_Type97ATRifle</defName>
         <statBases>
             <WorkToMake>44500</WorkToMake>
-            <Mass>19.00</Mass>            <!--===== Reduced from 52kg. Stats calculated with 52kg. Pawns have problems using weapons that are +20kg, even PA users. =====-->
+            <Mass>25.00</Mass>            <!--===== Reduced from 52kg. Stats calculated with 52kg. Pawns have problems using weapons that are +20kg, even PA users. =====-->
             <Bulk>22.90</Bulk>
             <SwayFactor>5.10</SwayFactor>
             <ShotSpread>0.01</ShotSpread>
@@ -887,7 +887,7 @@
             <hasStandardCommand>True</hasStandardCommand>
             <defaultProjectile>Bullet_20x125mm_HE</defaultProjectile>
             <warmupTime>2.8</warmupTime>
-            <range>9</range>
+            <range>83</range>
             <soundCast>HRK_Shot_Type97ATRifle</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
@@ -903,15 +903,8 @@
             <aiUseBurstMode>FALSE</aiUseBurstMode>
         </FireModes>
         <weaponTags>
-            <li>Bipod_Type97ATRifle</li>
+            <li>Bipod_ATR</li>
         </weaponTags>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="HRK_Type97ATRifle"]/description</xpath>
-        <value>
-            <description>The Type 97 automatic cannon is a 20-millimeter Japanese anti-tank rifle that began development in the 1930s. It was used by the Imperial Japanese Army during Pacific War. Ever-greater thicknesses of armour on tanks rendered the Type 97 obsolete by about 1942. \n\nThe real weapon weights 52kg, to simulate the IRL usage of this weapon the weight has been reduced but you'll need to set up the bipod to properly use it otherwise, it will have no range.</description>
-        </value>
     </Operation>
 
     <!--===== Type 89 GL =====-->
@@ -980,7 +973,7 @@
             <hasStandardCommand>True</hasStandardCommand>
             <defaultProjectile>Bullet_74mmRocket_HEAT</defaultProjectile>
             <warmupTime>2.1</warmupTime>
-            <range>40</range>
+            <range>20</range>
             <soundCast>HRK_Shot_Type470mmRL</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
