@@ -5,8 +5,8 @@
     <ThingDef Name="HRK_RimAtWar_Japanese_BaseHumanMakeableGun" ParentName="BaseHumanMakeableGun" Abstract="True">
         <thingCategories Inherit="False">
             <li>HRK_Category_RimAtWarWeaponsRanged_Japan</li>
-        </thingCategories>     
-        <uiIconScale>1.2</uiIconScale>   
-    </ThingDef>   
+        </thingCategories>
+        <uiIconScale>1.2</uiIconScale>
+    </ThingDef>
 
 </Defs>

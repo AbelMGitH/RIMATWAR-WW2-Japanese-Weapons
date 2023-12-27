@@ -655,7 +655,7 @@
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>True</hasStandardCommand>
-                    <defaultProjectile>Bullet_30mmType2Grenade_HE</defaultProjectile>
+                    <defaultProjectile>Bullet_30mmRifleGrenade_HE</defaultProjectile>
                     <warmupTime>1.1</warmupTime>
                     <range>35</range>
                     <soundCast>HRK_Shot_Type2RifleGrenade</soundCast>
@@ -669,7 +669,7 @@
                 <AmmoUser>
                     <magazineSize>1</magazineSize>
                     <reloadTime>3.5</reloadTime>
-                    <ammoSet>AmmoSet_30mmType2Grenade</ammoSet>
+                    <ammoSet>AmmoSet_30mmRifleGrenade</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiAimMode>SuppressFire</aiAimMode>

@@ -2,30 +2,29 @@
 <Defs>
 
     <ThingCategoryDef>
-        <defName>Ammo30mmType2Grenades</defName>
-        <label>30mm Type 2 Grenade</label>
+        <defName>Ammo30mmRifleGrenades</defName>
+        <label>30mm rifle Grenade</label>
         <parent>AmmoGrenades</parent>
-        <iconPath>Things/Ammo/Japanese/GrenadeLauncher/30mm/HE/HE_c</iconPath>
+        <iconPath>Things/Ammo/Shared/GrenadeLauncher/30mm/HE/HE_c</iconPath>
     </ThingCategoryDef>
 
     <!-- ==================== AmmoSet ========================== -->
 
     <CombatExtended.AmmoSetDef>
-        <defName>AmmoSet_30mmType2Grenade</defName>
-        <label>30mm Type 2 Grenades</label>
+        <defName>AmmoSet_30mmRifleGrenade</defName>
+        <label>30mm rifle Grenades</label>
         <ammoTypes>
-            <Ammo_30mmType2Grenade_HEAT>Bullet_30mmType2Grenade_HEAT</Ammo_30mmType2Grenade_HEAT>
-            <Ammo_30mmType2Grenade_HE>Bullet_30mmType2Grenade_HE</Ammo_30mmType2Grenade_HE>
-            <Ammo_30mmType2Grenade_Frag>Bullet_30mmType2Grenade_Frag</Ammo_30mmType2Grenade_Frag>
-            <Ammo_30mmType2Grenade_Smoke>Bullet_30mmType2Grenade_Smoke</Ammo_30mmType2Grenade_Smoke>
+            <Ammo_30mmRifleGrenade_HEAT>Bullet_30mmRifleGrenade_HEAT</Ammo_30mmRifleGrenade_HEAT>
+            <Ammo_30mmRifleGrenade_HE>Bullet_30mmRifleGrenade_HE</Ammo_30mmRifleGrenade_HE>
+            <Ammo_30mmRifleGrenade_Smoke>Bullet_30mmRifleGrenade_Smoke</Ammo_30mmRifleGrenade_Smoke>
         </ammoTypes>
         <similarTo>AmmoSet_LauncherGrenade</similarTo>
     </CombatExtended.AmmoSetDef>
 
     <!-- ==================== Ammo ========================== -->
 
-    <ThingDef Class="CombatExtended.AmmoDef" Name="30mmType2GrenadeBase" ParentName="AmmoBase" Abstract="True">
-        <description>Relatively small, low velocity grenade for use in japanese rifle type 2 grenade launchers.</description>
+    <ThingDef Class="CombatExtended.AmmoDef" Name="30mmRifleGrenadeBase" ParentName="AmmoBase" Abstract="True">
+        <description>Relatively small, low velocity grenade for use in World War II rifle grenade launchers.</description>
         <statBases>
             <Mass>0.36</Mass>
             <Bulk>0.28</Bulk>
@@ -35,59 +34,45 @@
             <li>CE_AutoEnableCrafting_TableMachining</li>
         </tradeTags>
         <thingCategories>
-            <li>Ammo30mmType2Grenades</li>
+            <li>Ammo30mmRifleGrenades</li>
         </thingCategories>
         <stackLimit>500</stackLimit>
         <cookOffFlashScale>20</cookOffFlashScale>
     </ThingDef>
 
-    <ThingDef Class="CombatExtended.AmmoDef" ParentName="30mmType2GrenadeBase">
-        <defName>Ammo_30mmType2Grenade_HEAT</defName>
-        <label>30mm Type 2 grenade (HEAT)</label>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="30mmRifleGrenadeBase">
+        <defName>Ammo_30mmRifleGrenade_HEAT</defName>
+        <label>30mm rifle grenade (HEAT)</label>
         <graphicData>
-            <texPath>Things/Ammo/Japanese/GrenadeLauncher/30mm/HEAT</texPath>
+            <texPath>Things/Ammo/Shared/GrenadeLauncher/30mm/HEAT</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>2.85</MarketValue>
         </statBases>
         <ammoClass>GrenadeHEAT</ammoClass>
-        <detonateProjectile>Bullet_30mmType2Grenade_HE</detonateProjectile>
+        <detonateProjectile>Bullet_30mmRifleGrenade_HE</detonateProjectile>
     </ThingDef>
 
-    <ThingDef Class="CombatExtended.AmmoDef" ParentName="30mmType2GrenadeBase">
-        <defName>Ammo_30mmType2Grenade_HE</defName>
-        <label>30mm Type 2 grenade (HE)</label>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="30mmRifleGrenadeBase">
+        <defName>Ammo_30mmRifleGrenade_HE</defName>
+        <label>30mm rifle grenade (HE)</label>
         <graphicData>
-            <texPath>Things/Ammo/Japanese/GrenadeLauncher/30mm/HE</texPath>
+            <texPath>Things/Ammo/Shared/GrenadeLauncher/30mm/HE</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>2.85</MarketValue>
         </statBases>
         <ammoClass>GrenadeHE</ammoClass>
-        <detonateProjectile>Bullet_30mmType2Grenade_HE</detonateProjectile>
+        <detonateProjectile>Bullet_30mmRifleGrenade_HE</detonateProjectile>
     </ThingDef>
 
-    <ThingDef Class="CombatExtended.AmmoDef" ParentName="30mmType2GrenadeBase">
-        <defName>Ammo_30mmType2Grenade_Frag</defName>
-        <label>30mm Type 2 grenade (Frag)</label>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="30mmRifleGrenadeBase">
+        <defName>Ammo_30mmRifleGrenade_Smoke</defName>
+        <label>30mm rifle grenade (Smoke)</label>
         <graphicData>
-            <texPath>Things/Ammo/Japanese/GrenadeLauncher/30mm/Frag</texPath>
-            <graphicClass>Graphic_StackCount</graphicClass>
-        </graphicData>
-        <statBases>
-            <MarketValue>3.71</MarketValue>
-        </statBases>
-        <ammoClass>GrenadeFrag</ammoClass>
-        <detonateProjectile>Bullet_30mmType2Grenade_HE</detonateProjectile>
-    </ThingDef>
-
-    <ThingDef Class="CombatExtended.AmmoDef" ParentName="30mmType2GrenadeBase">
-        <defName>Ammo_30mmType2Grenade_Smoke</defName>
-        <label>30mm Type 2 grenade (Smoke)</label>
-        <graphicData>
-            <texPath>Things/Ammo/Japanese/GrenadeLauncher/30mm/SMK</texPath>
+            <texPath>Things/Ammo/Shared/GrenadeLauncher/30mm/SMK</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -95,15 +80,15 @@
         </statBases>
         <ammoClass>Smoke</ammoClass>
         <generateAllowChance>0</generateAllowChance>
-        <detonateProjectile>Bullet_30mmType2Grenade_Smoke</detonateProjectile>
+        <detonateProjectile>Bullet_30mmRifleGrenade_Smoke</detonateProjectile>
     </ThingDef>
 
     <!-- ================== Projectiles ================== -->
 
-    <ThingDef Name="Base30mmType2GrenadeBullet" ParentName="BaseBulletCE" Abstract="true">
+    <ThingDef Name="Base30mmRifleGrenadeBullet" ParentName="BaseBulletCE" Abstract="true">
         <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
         <graphicData>
-            <texPath>Things/Projectile/LauncherShot/Japan/HE</texPath>
+            <texPath>Things/Projectile/LauncherShot/Shared/HE</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(0.9,0.9)</drawSize>
         </graphicData>
@@ -113,11 +98,11 @@
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="Base30mmType2GrenadeBullet">
-        <defName>Bullet_30mmType2Grenade_HEAT</defName>
-        <label>30mm Type 2 grenade (HEAT)</label>
+    <ThingDef ParentName="Base30mmRifleGrenadeBullet">
+        <defName>Bullet_30mmRifleGrenade_HEAT</defName>
+        <label>30mm rifle grenade (HEAT)</label>
         <graphicData>
-            <texPath>Things/Projectile/LauncherShot/Japan/HEAT</texPath>
+            <texPath>Things/Projectile/LauncherShot/Shared/HEAT</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -143,11 +128,11 @@
         </comps>
     </ThingDef>
 
-    <ThingDef ParentName="Base30mmType2GrenadeBullet">
-        <defName>Bullet_30mmType2Grenade_HE</defName>
-        <label>30mm Type 2 grenade (HE)</label>
+    <ThingDef ParentName="Base30mmRifleGrenadeBullet">
+        <defName>Bullet_30mmRifleGrenade_HE</defName>
+        <label>30mm rifle grenade (HE)</label>
         <graphicData>
-            <texPath>Things/Projectile/LauncherShot/Japan/HE</texPath>
+            <texPath>Things/Projectile/LauncherShot/Shared/HE</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -165,35 +150,11 @@
         </comps>
     </ThingDef>
 
-    <ThingDef ParentName="Base30mmType2GrenadeBullet">
-        <defName>Bullet_30mmType2Grenade_Frag</defName>
-        <label>30mm Type 2 grenade (Frag)</label>
+    <ThingDef ParentName="Base30mmRifleGrenadeBullet">
+        <defName>Bullet_30mmRifleGrenade_Smoke</defName>
+        <label>30mm rifle grenade (Smoke)</label>
         <graphicData>
-            <texPath>Things/Projectile/LauncherShot/Japan/Frag</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <projectile Class="CombatExtended.ProjectilePropertiesCE">
-            <explosionRadius>1</explosionRadius >
-            <damageDef>Bomb</damageDef>
-            <damageAmountBase>20</damageAmountBase>
-            <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-            <explosionDelay>60</explosionDelay>
-            <soundExplode>HRK_Explosion_FragGrenade</soundExplode>
-        </projectile>
-        <comps>
-            <li Class="CombatExtended.CompProperties_Fragments">
-                <fragments>
-                    <Fragment_Small>22</Fragment_Small>
-                </fragments>
-            </li>
-        </comps>
-    </ThingDef>
-
-    <ThingDef ParentName="Base30mmType2GrenadeBullet">
-        <defName>Bullet_30mmType2Grenade_Smoke</defName>
-        <label>30mm Type 2 grenade (Smoke)</label>
-        <graphicData>
-            <texPath>Things/Projectile/LauncherShot/Japan/SMK</texPath>
+            <texPath>Things/Projectile/LauncherShot/Shared/SMK</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -207,10 +168,10 @@
     <!-- ==================== Recipes ========================== -->
 
     <RecipeDef ParentName="LauncherAmmoRecipeBase">
-        <defName>MakeAmmo_30mmType2Grenade_HEAT</defName>
-        <label>make 30mm Type 2 HEAT grenades x100</label>
-        <description>Craft 100 30mm Type 2 HEAT grenades.</description>
-        <jobString>Making 30mm Type 2 HEAT grenades.</jobString>
+        <defName>MakeAmmo_30mmRifleGrenade_HEAT</defName>
+        <label>make 30mm rifle HEAT grenades x100</label>
+        <description>Craft 100 30mm rifle HEAT grenades.</description>
+        <jobString>Making 30mm rifle HEAT grenades.</jobString>
         <researchPrerequisite>Machining</researchPrerequisite>
         <ingredients>
             <li>
@@ -246,16 +207,16 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <Ammo_30mmType2Grenade_HEAT>100</Ammo_30mmType2Grenade_HEAT>
+            <Ammo_30mmRifleGrenade_HEAT>100</Ammo_30mmRifleGrenade_HEAT>
         </products>
         <workAmount>11400</workAmount>
     </RecipeDef>
 
     <RecipeDef ParentName="LauncherAmmoRecipeBase">
-        <defName>MakeAmmo_30mmType2Grenade_HE</defName>
-        <label>make 30mm Type 2 HE grenades x100</label>
-        <description>Craft 100 30mm Type 2 HE grenades.</description>
-        <jobString>Making 30mm Type 2 HE grenades.</jobString>
+        <defName>MakeAmmo_30mmRifleGrenade_HE</defName>
+        <label>make 30mm rifle HE grenades x100</label>
+        <description>Craft 100 30mm rifle HE grenades.</description>
+        <jobString>Making 30mm rifle HE grenades.</jobString>
         <researchPrerequisite>Machining</researchPrerequisite>
         <ingredients>
             <li>
@@ -291,61 +252,16 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <Ammo_30mmType2Grenade_HE>100</Ammo_30mmType2Grenade_HE>
+            <Ammo_30mmRifleGrenade_HE>100</Ammo_30mmRifleGrenade_HE>
         </products>
         <workAmount>11400</workAmount>
     </RecipeDef>
 
     <RecipeDef ParentName="LauncherAmmoRecipeBase">
-        <defName>MakeAmmo_30mmType2Grenade_Frag</defName>
-        <label>make 30mm Type 2 frag grenades x100</label>
-        <description>Craft 100 30mm Type 2 frag grenades.</description>
-        <jobString>Making 30mm Type 2 frag grenades.</jobString>
-        <researchPrerequisite>Machining</researchPrerequisite>
-        <ingredients>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>Steel</li>
-                    </thingDefs>
-                </filter>
-                <count>74</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>FSX</li>
-                    </thingDefs>
-                </filter>
-                <count>7</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>ComponentIndustrial</li>
-                    </thingDefs>
-                </filter>
-                <count>2</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <thingDefs>
-                <li>Steel</li>
-                <li>FSX</li>
-                <li>ComponentIndustrial</li>
-            </thingDefs>
-        </fixedIngredientFilter>
-        <products>
-            <Ammo_30mmType2Grenade_Frag>100</Ammo_30mmType2Grenade_Frag>
-        </products>
-        <workAmount>13400</workAmount>
-    </RecipeDef>
-
-    <RecipeDef ParentName="LauncherAmmoRecipeBase">
-        <defName>MakeAmmo_30mmType2Grenade_Smoke</defName>
-        <label>make 30mm Type 2 smoke grenades x100</label>
-        <description>Craft 100 30mm Type 2 smoke grenades.</description>
-        <jobString>Making 30mm Type 2 smoke grenades.</jobString>
+        <defName>MakeAmmo_30mmRifleGrenade_Smoke</defName>
+        <label>make 30mm rifle smoke grenades x100</label>
+        <description>Craft 100 30mm rifle smoke grenades.</description>
+        <jobString>Making 30mm rifle smoke grenades.</jobString>
         <researchPrerequisite>Machining</researchPrerequisite>
         <ingredients>
             <li>
@@ -381,7 +297,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <Ammo_30mmType2Grenade_Smoke>100</Ammo_30mmType2Grenade_Smoke>
+            <Ammo_30mmRifleGrenade_Smoke>100</Ammo_30mmRifleGrenade_Smoke>
         </products>
         <workAmount>9800</workAmount>
     </RecipeDef>

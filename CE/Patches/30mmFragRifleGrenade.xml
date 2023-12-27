@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_30mmRifleGrenade"]/ammoTypes</xpath>
+        <value>
+            <Ammo_30mmRifleGrenade_Frag>Bullet_30mmRifleGrenade_Frag</Ammo_30mmRifleGrenade_Frag>
+        </value>
+    </Operation>
+
+</Patch>

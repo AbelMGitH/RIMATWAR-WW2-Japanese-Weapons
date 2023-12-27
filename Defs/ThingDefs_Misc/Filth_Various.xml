@@ -2,9 +2,9 @@
 <Defs>
 
     <ThingDef ParentName="BaseFilth">
-        <defName>HRK_Filth_WhitePhosporus</defName>
-        <label>white phosporus</label>
-        <description>flammable white phosporus.</description>
+        <defName>HRK_Filth_WhitePhosphorus</defName>
+        <label>white phosphorus</label>
+        <description>flammable white phosphorus.</description>
         <thingClass>HarkonRimAtWar.WhitePhosphorus</thingClass>
         <useHitPoints>true</useHitPoints>
         <tickerType>Normal</tickerType>

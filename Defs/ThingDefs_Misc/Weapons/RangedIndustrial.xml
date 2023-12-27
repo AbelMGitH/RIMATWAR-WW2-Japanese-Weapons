@@ -203,8 +203,7 @@
             <drawSize>1.0</drawSize>
         </graphicData>
         <uiIconPath>UI/Weapons/HRK_Type1NambuSMG</uiIconPath>
-        <equippedAngleOffset>45</equippedAngleOffset>
-        <uiIconScale>1.1</uiIconScale>
+        <equippedAngleOffset>45</equippedAngleOffset>        
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
             <researchPrerequisite>BlowbackOperation</researchPrerequisite>
@@ -281,7 +280,6 @@
         </graphicData>
         <uiIconPath>UI/Weapons/HRK_Type1NambuSMGB</uiIconPath>
         <equippedAngleOffset>45</equippedAngleOffset>
-        <uiIconScale>1.1</uiIconScale>
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
             <researchPrerequisite>BlowbackOperation</researchPrerequisite>
