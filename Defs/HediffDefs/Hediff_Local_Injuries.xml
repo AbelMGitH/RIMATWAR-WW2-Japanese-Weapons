@@ -10,7 +10,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-20</severityPerDay>
       </li>
-      <li Class="HarkonRimAtWar.HediffCompProperties_WhitePhosphorus" />
+      <li Class="HarkonRimAtWar.HediffCompProperties_WhitePhosphorus"/>
       <li Class="HediffCompProperties_DisappearsOnDeath"/>
     </comps>
     <stages>
