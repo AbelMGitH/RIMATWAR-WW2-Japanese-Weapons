@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarkonRimAtWar", "HarkonRimAtWar.csproj", "{D64D698A-E1EF-4DBB-A344-2E9DF3E2575E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D64D698A-E1EF-4DBB-A344-2E9DF3E2575E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64D698A-E1EF-4DBB-A344-2E9DF3E2575E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64D698A-E1EF-4DBB-A344-2E9DF3E2575E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64D698A-E1EF-4DBB-A344-2E9DF3E2575E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1385F1F2-037A-434D-BDFF-2FD104CE9962}
+	EndGlobalSection
+EndGlobal
