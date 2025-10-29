@@ -36,7 +36,7 @@ namespace HarkonRimAtWar
             }
         }
 
-        public override void Tick()
+        protected override void Tick()
         {
             bool flag = GenCollection.Any<Thing>(GridsUtility.GetThingList(base.Position, base.Map), (Thing x) => x.def == ThingDefOf.Filth_FireFoam);
             if (flag)
